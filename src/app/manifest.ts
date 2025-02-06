@@ -19,21 +19,21 @@ export default function manifest(): MetadataRoute.Manifest {
     ],
     icons: [
       {
-        src: `guild-castle.svg`,
+        src: `icon-logo-mc2-crown.svg`,
         sizes: `64x64`,
         type: "image/svg",
         // @ts-ignore: "maskable any" is not typed out as an option
         purpose: "maskable any",
       },
       {
-        src: `guild-castle.png`,
+        src: `icon-logo-mc2-crown.png`,
         sizes: `144x144`,
         type: "image/png",
         // @ts-ignore: "maskable any" is not typed out as an option
         purpose: "maskable any",
       },
       {
-        src: `guild-icon.png`,
+        src: `icon-logo-mc2-crown.png`,
         sizes: `64x64`,
         type: "image/png",
         purpose: "maskable",

@@ -7,7 +7,7 @@ import {
   LayoutMain,
 } from "@/components/Layout"
 import { SWRProvider } from "@/components/SWRProvider"
-import { FarcasterProfile, Guild, Role, Schemas } from "@guildxyz/types"
+import { Guild, Role, Schemas } from "@guildxyz/types"
 import { env } from "env"
 import { Metadata } from "next"
 import Image from "next/image"
@@ -27,7 +27,7 @@ export const generateMetadata = async ({ params: { username } }: PageProps) => {
     fetchFallback: false,
   })
   return {
-    title: `${profile.name || profile.username} (@${profile.username}) | Guild.xyz`,
+    title: `${profile.name || profile.username} (@${profile.username}) | MC2 Universe`,
     description: profile.bio,
     openGraph: {
       images: [profile.profileImageUrl, profile.backgroundImageUrl].filter(
@@ -62,6 +62,8 @@ const fetchPublicProfileData = async ({
   if (!fetchFallback) {
     return { profile }
   }
+  /*
+  TODO: @universe
   const farcasterProfilesRequest = new URL(
     `/v2/users/${profile.userId}/farcaster-profiles`,
     api
@@ -89,6 +91,7 @@ const fetchPublicProfileData = async ({
         revalidate: 12 * 3600,
       },
     }))
+  */
 
   const referredUsersRequest = new URL(
     `/v2/profiles/${username}/referred-users`,
@@ -200,8 +203,10 @@ const fetchPublicProfileData = async ({
       [
         [profileRequest.pathname, profile],
         [contributionsRequest.pathname, contributions],
+        /*
         [farcasterProfilesRequest.pathname, farcasterProfiles],
         [neynarRequest?.pathname, fcFollowers],
+        */
         [referredUsersRequest.pathname, referredUsers],
         [experiencesRequest.pathname, experiences],
         [

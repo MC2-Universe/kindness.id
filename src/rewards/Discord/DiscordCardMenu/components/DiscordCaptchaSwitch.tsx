@@ -92,7 +92,7 @@ const DiscordCaptchaSwitch = ({ serverId }: Props): JSX.Element => {
           <Text as="span">Discord CAPTCHA</Text>
           <Tooltip
             label="Users need to complete a CAPTCHA before joining
-                  your guild on Discord"
+                  your world on Discord"
             hasArrow
             placement="top"
           >

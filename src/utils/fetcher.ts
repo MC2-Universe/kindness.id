@@ -2,7 +2,6 @@ import { env } from "env"
 import { FuelSignProps, SignProps } from "hooks/useSubmit/types"
 import { fuelSign } from "hooks/useSubmit/utils"
 import { sign } from "hooks/useSubmit/utils"
-import { pushToIntercomSetting } from "./intercom"
 
 const SIG_HEADER_NAME = "x-guild-sig"
 const PARAMS_HEADER_NAME = "x-guild-params"
@@ -59,6 +58,7 @@ const fetcher = async (
 
   return fetch(endpoint, options).then(async (response: Response) => {
     const contentType = response.headers.get("content-type")
+    const correlationId = "unset"
 
     // Return raw response for binary content types
     if (
@@ -93,9 +93,6 @@ const fetcher = async (
         const errorMsg = error
           ? `${error.msg}${error.param ? `: ${error.param}` : ""}`
           : res
-
-        const correlationId = response.headers.get("X-Correlation-ID")
-        if (correlationId) pushToIntercomSetting("correlationId", correlationId)
 
         // Some validators may return res.message, so we can't use res.errors.[0].msg in every case
         return Promise.reject({

@@ -56,7 +56,7 @@ const TxSuccess = ({
             className="w-full"
             onClick={openJoinModal}
           >
-            Join guild
+            Join world
           </Button>
         )}
       </DialogFooter>

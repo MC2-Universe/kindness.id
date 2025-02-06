@@ -49,7 +49,7 @@ const useJoin = ({ onSuccess, onError }: UseSubmitOptions<JoinJob>) => {
             action: (
               <ToastAction altText="Try again" onClick={onOpen}>
                 <CircleWavyCheck weight="fill" />
-                <span> Mint Guild Pin</span>
+                <span> Mint Universal Badge</span>
               </ToastAction>
             ),
           })

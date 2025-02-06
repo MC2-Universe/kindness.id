@@ -160,14 +160,14 @@ export const ProfileActionLabel: FunctionComponent<{
       case ACTION.JoinGuild:
         return (
           <>
-            <span>Join Guild</span>
+            <span>Join World</span>
             {/* <GuildBadge guildId={ids.guild} /> */}
           </>
         )
       case ACTION.ClickJoinOnPlatform:
         return (
           <>
-            <span>{`Join Guild through ${rewards[data.platformName].name}`}</span>
+            <span>{`Join World through ${rewards[data.platformName].name}`}</span>
             {/* <GuildBadge guildId={ids.guild} /> */}
           </>
         )

@@ -13,20 +13,20 @@ export const SUBSCRIPTIONS = [
     title: "Single Pass",
     pricing: "$6 / month",
     pricingShort: "$6 / month",
-    description: "For the curious, who want to try Guild’s new features",
+    description: "For the curious, who want to try MC2 Universe’s new features",
   },
   {
     title: "Bundle Pass",
     pricing: "$60 / year",
     pricingShort: "$60 / year",
-    description: "For the professionals, who would benefit from Guild continuously",
+    description:
+      "For the professionals, who would benefit from the Universe continuously",
   },
   {
     title: "Lifetime Pass",
     pricing: "0.1 ETH one time",
     pricingShort: "0.1 ETH",
-    description:
-      "For Guild’s biggest supporters, who are excited for the future of Guild",
+    description: "For our biggest supporters, who are excited for the future of MC2",
   },
 ] as const satisfies {
   title: string
@@ -37,19 +37,19 @@ export const SUBSCRIPTIONS = [
 
 export const BENEFITS = [
   {
-    title: "Launch your Guild Profile",
+    title: "Launch your Universal Profile",
     description: "Your onchain profile with achievements and XP level ",
     isAvailable: true,
     image: star,
   },
   {
     title: "Unlock exclusive rewards",
-    description: "Pass holders can access unique and one-off rewards from guilds",
+    description: "Pass holders can access unique and one-off rewards from worlds",
     isAvailable: true,
     image: bustInSilhouette,
   },
   {
-    title: "Get early access to Guild features",
+    title: "Get early access to MC2 Universe features",
     description: "Be the first to unlock and experience our newest features",
     isAvailable: true,
     image: unlocked,
@@ -71,14 +71,14 @@ export const BENEFITS = [
   {
     title: "Alpha Explorer",
     description:
-      "Unlock secret guilds and earn exclusive rewards before they become popular",
+      "Unlock secret worlds and earn exclusive rewards before they become popular",
     isAvailable: false,
     image: compass,
   },
   {
     title: "Be part of Gold community",
     description:
-      "Shape Guild's future — your ideas drive what we build and when we build it",
+      "Shape MC2 Universe's future — your ideas drive what we build and when we build it",
     isAvailable: false,
     image: peopleWithBunnyEars,
   },

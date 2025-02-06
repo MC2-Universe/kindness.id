@@ -63,7 +63,7 @@ const Page = async ({ searchParams }: { searchParams: SearchParams }) => {
           <Header />
 
           <LayoutHeadline id={ActiveSection.YourGuilds}>
-            <LayoutTitle>Guildhall</LayoutTitle>
+            <LayoutTitle>MC2 Universe</LayoutTitle>
           </LayoutHeadline>
         </LayoutHero>
 

@@ -39,7 +39,7 @@ const GuildPinRewardCard = () => {
         </div>
 
         <div className="flex flex-col">
-          <span className="font-bold">Guild Pin</span>
+          <span className="font-bold">Universal Badge</span>
           <span className="text-muted-foreground text-sm">
             {!guildPin?.isActive
               ? "Mintable badge of membership"

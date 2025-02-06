@@ -20,7 +20,6 @@ import "../app/globals.css"
 import { AccountModal } from "@/components/Account/components/AccountModal"
 import { PurchaseHistoryDrawer } from "@/components/Account/components/PurchaseHistoryDrawer/PurchaseHistoryDrawer"
 import AppErrorBoundary from "@/components/AppErrorBoundary"
-import { IntercomProvider } from "@/components/Providers/IntercomProvider"
 import { TermsOfUseUpdateDialog } from "@/components/TermsOfUseUpdateDialog"
 import { Toaster } from "@/components/ui/Toaster"
 import { TooltipProvider } from "@/components/ui/Tooltip"
@@ -77,16 +76,14 @@ const App = ({
                 <QueryClientProvider client={queryClient}>
                   <FuelProvider ui={false} fuelConfig={fuelConfig}>
                     <LegacyPostHogProvider>
-                      <IntercomProvider>
-                        <AppErrorBoundary>
-                          <Component {...pageProps} />
-                        </AppErrorBoundary>
+                      <AppErrorBoundary>
+                        <Component {...pageProps} />
+                      </AppErrorBoundary>
 
-                        <ClientOnly>
-                          <AccountModal />
-                          <PurchaseHistoryDrawer />
-                        </ClientOnly>
-                      </IntercomProvider>
+                      <ClientOnly>
+                        <AccountModal />
+                        <PurchaseHistoryDrawer />
+                      </ClientOnly>
 
                       <LegacyWeb3ConnectionManager />
                       <TermsOfUseUpdateDialog />

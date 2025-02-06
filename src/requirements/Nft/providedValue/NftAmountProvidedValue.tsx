@@ -42,7 +42,7 @@ const NftAmountProvidedValue = ({ requirement }: ProvidedValueDisplayProps) => {
           <DataBlock>{guildPinGuildName}</DataBlock>
         </>
       )}
-      <Text as="span">{" Guild Pin"}</Text>
+      <Text as="span">{" Universal Badge"}</Text>
     </>
   ) : (
     metadataWithTraits?.name || metadata?.name

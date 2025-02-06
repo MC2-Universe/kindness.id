@@ -30,11 +30,9 @@ import { GetStaticPaths, GetStaticProps } from "next"
 import dynamic from "next/dynamic"
 import Head from "next/head"
 import ErrorPage from "pages/_error"
-import { useEffect } from "react"
 import { SWRConfig } from "swr"
 import { Guild, Requirement, SocialLinkKey } from "types"
 import fetcher from "utils/fetcher"
-import { addIntercomSettings } from "utils/intercom"
 import parseDescription from "utils/parseDescription"
 
 const DynamicOngoingIssuesBanner = dynamic(
@@ -176,16 +174,6 @@ type Props = {
 const GuildPageWrapper = ({ fallback }: Props): JSX.Element => {
   const guild = useGuild()
 
-  useEffect(() => {
-    if (!guild?.id) return
-
-    addIntercomSettings({
-      guildId: guild.id,
-      featureFlags: guild.featureFlags?.toString(),
-      memberCount: guild.memberCount,
-    })
-  }, [guild])
-
   if (!fallback) {
     if (guild.isLoading)
       return (
@@ -208,7 +196,7 @@ const GuildPageWrapper = ({ fallback }: Props): JSX.Element => {
         <meta property="og:title" content={Object.values(fallback)[0].name} />
         <link
           rel="shortcut icon"
-          href={Object.values(fallback)[0].imageUrl ?? "/guild-icon.png"}
+          href={Object.values(fallback)[0].imageUrl ?? "/icon-logo-mc2-crown.png"}
         />
         <meta name="description" content={Object.values(fallback)[0].description} />
         <meta

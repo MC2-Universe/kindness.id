@@ -49,7 +49,7 @@ const GuildPinImage = (): JSX.Element => {
                 w="full"
                 zIndex={1}
                 src={pinUrl}
-                alt="Guild Pin image"
+                alt="Universal Badge image"
                 borderRadius="full"
                 boxShadow={imageShadow}
               />
@@ -74,7 +74,7 @@ const GuildPinImage = (): JSX.Element => {
                 <VStack>
                   <Spinner size="lg" />
                   <Text fontWeight="bold" textAlign="center" fontSize="sm">
-                    Generating Guild Pin
+                    Generating Universal Badge
                   </Text>
                 </VStack>
               )}

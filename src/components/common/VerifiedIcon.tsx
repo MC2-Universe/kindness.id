@@ -14,7 +14,7 @@ type Props = {
 
 const VerifiedIcon = ({ size, ...chakraProps }: Props): JSX.Element => (
   <Box as="span" {...chakraProps}>
-    <Tooltip label="This guild is verified by Guild.xyz" hasArrow>
+    <Tooltip label="This world is verified by Guild.xyz" hasArrow>
       {/* the check in the middle is transparent by default, we use this wrapper to make it white */}
       <Center
         position="relative"

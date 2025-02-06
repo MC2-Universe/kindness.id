@@ -43,7 +43,7 @@ const ActivateGuildPinForm = (): JSX.Element => {
     toast({
       status: "success",
       title: "Success",
-      description: "Successfully activated Guild Pin",
+      description: "Successfully activated Universal Badge",
     })
     onActivateModalClose()
   }
@@ -138,9 +138,9 @@ const ActivateGuildPinForm = (): JSX.Element => {
           w="full"
           onClick={methods.handleSubmit(activateGuildPin)}
           isLoading={isLoading}
-          loadingText="Activating Guild Pin"
+          loadingText="Activating Universal Badge"
         >
-          {setupRequired ? "Setup required" : "Activate Guild Pin"}
+          {setupRequired ? "Setup required" : "Activate Universal Badge"}
         </Button>
       </Stack>
     </FormProvider>

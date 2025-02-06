@@ -87,7 +87,7 @@ const Layout = ({
       <Head>
         <title>{`${ogTitle ?? title}`}</title>
         <meta property="og:title" content={`${ogTitle ?? title}`} />
-        <link rel="shortcut icon" href={imageUrl ?? "/guild-icon.png"} />
+        <link rel="shortcut icon" href={imageUrl ?? "/icon-logo-mc2-crown.png"} />
         {ogDescription && (
           <>
             <meta name="description" content={ogDescription} />

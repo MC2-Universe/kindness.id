@@ -5,7 +5,6 @@ import Bugsnag from "@bugsnag/js"
 import { ChatCircle, House } from "@phosphor-icons/react/dist/ssr"
 import { useEffect } from "react"
 import GuildGhost from "static/avatars/58.svg"
-import { triggerChat } from "utils/intercom"
 
 export default function Error({
   error,
@@ -34,11 +33,7 @@ export default function Error({
           </Button>
         </a>
 
-        <Button
-          size="lg"
-          onClick={triggerChat}
-          leftIcon={<ChatCircle weight="bold" />}
-        >
+        <Button size="lg" leftIcon={<ChatCircle weight="bold" />}>
           Contact support
         </Button>
       </div>

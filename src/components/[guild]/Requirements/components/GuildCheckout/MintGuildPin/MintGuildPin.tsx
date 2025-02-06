@@ -65,9 +65,12 @@ const MintGuildPin = (): JSX.Element => {
                     onActivateModalOpen()
                   } else {
                     onOpen()
-                    captureEvent("Click: Mint Guild Pin (GuildPinRewardCard)", {
-                      guild: urlName,
-                    })
+                    captureEvent(
+                      "Click: Mint Universal Badge (GuildPinRewardCard)",
+                      {
+                        guild: urlName,
+                      }
+                    )
                   }
                 }
           }
@@ -84,7 +87,7 @@ const MintGuildPin = (): JSX.Element => {
               }
             : {})}
         >
-          {!guildPin?.isActive ? "Setup Guild Pin" : "Mint Guild Pin"}
+          {!guildPin?.isActive ? "Setup Universal Badge" : "Mint Universal Badge"}
         </Button>
       </Tooltip>
 
@@ -100,7 +103,7 @@ const MintGuildPin = (): JSX.Element => {
       >
         <ModalOverlay />
         <ModalContent>
-          <ModalHeader pb={4}>Mint Guild Pin</ModalHeader>
+          <ModalHeader pb={4}>Mint Universal Badge</ModalHeader>
           <ModalCloseButton />
 
           <ModalBody pb="6">
@@ -127,11 +130,11 @@ const MintGuildPin = (): JSX.Element => {
       {!initialIsActive && isAdmin && <DynamicActivateGuildPinModal />}
 
       <TransactionStatusModal
-        title="Mint Guild Pin"
+        title="Mint Universal Badge"
         successTitle="Successful mint"
-        successText="Successful transaction! Your Guild Pin NFT is now on chain!"
+        successText="Successful transaction! Your Universal Badge NFT is now on chain!"
         successLinkComponent={<GuildPinOpenseaLink />}
-        errorComponent={<Text mb={4}>Couldn't mint Guild Pin</Text>}
+        errorComponent={<Text mb={4}>Couldn't mint Universal Badge</Text>}
         progressComponent={
           <>
             <Text fontWeight={"bold"} mb="2">

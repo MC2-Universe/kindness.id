@@ -38,9 +38,9 @@ import { ForwardRefExoticComponent, RefAttributes } from "react"
 // TODO: these are duplicated (and extended) types, we should move them to backend types
 export enum ACTION {
   // Guild
-  CreateGuild = "create guild",
-  UpdateGuild = "update guild",
-  DeleteGuild = "delete guild",
+  CreateGuild = "create world",
+  UpdateGuild = "update world",
+  DeleteGuild = "delete world",
   ExecutePendingActions = "execute pending actions",
   TransferOwnership = "transfer ownership",
   // Guild update
@@ -73,9 +73,9 @@ export enum ACTION {
   StopStatusUpdate = "stop status update",
   // User
   ClickJoinOnPlatform = "click join on platform",
-  JoinGuild = "join guild",
-  LeaveGuild = "leave guild",
-  KickFromGuild = "kick from guild",
+  JoinGuild = "join world",
+  LeaveGuild = "leave world",
+  KickFromGuild = "kick from world",
   UserStatusUpdate = "user status update",
   GetRole = "get role",
   LoseRole = "lose role",

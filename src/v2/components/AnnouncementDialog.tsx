@@ -38,8 +38,8 @@ export const AnnouncementDialog = () => {
 
         <DialogBody className="prose text-foreground">
           <p>
-            Building your onchain identity just got easier. Collect Guild Pins and
-            NFT rewards and show off your favorite communities!
+            Building your onchain identity just got easier. Collect Universal Badges
+            and NFT rewards and show off your favorite communities!
           </p>
         </DialogBody>
 

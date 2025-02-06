@@ -1,10 +1,8 @@
-import { IntercomProvider } from "@/components/Providers/IntercomProvider"
 import { Flex, Heading, Icon, Stack } from "@chakra-ui/react"
 import { ChatCircle, House } from "@phosphor-icons/react"
 import Button from "components/common/Button"
 import Head from "next/head"
 import NotFoundIcon from "static/avatars/58.svg"
-import { triggerChat } from "utils/intercom"
 
 const Page = ({ statusCode }): JSX.Element => (
   <>
@@ -68,7 +66,6 @@ const Page = ({ statusCode }): JSX.Element => (
           colorScheme="solid-gray"
           iconSpacing={3}
           size="lg"
-          onClick={triggerChat}
         >
           Contact support
         </Button>
@@ -77,11 +74,7 @@ const Page = ({ statusCode }): JSX.Element => (
   </>
 )
 
-const PageWrapper = (props) => (
-  <IntercomProvider>
-    <Page {...props} />
-  </IntercomProvider>
-)
+const PageWrapper = (props) => <Page {...props} />
 
 PageWrapper.getInitialProps = ({ res, err }) => {
   const statusCode = res ? res.statusCode : err ? err.statusCode : 404

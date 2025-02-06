@@ -34,8 +34,8 @@ export const NavMenu = () => (
   <Popover>
     <PopoverTrigger asChild>
       <Button className="rounded-2xl text-banner-foreground" variant="ghost">
-        <AnimatedLogo />
-        <span className="font-bold font-display text-base">Guild</span>
+        <GuildLogo className="size-4 text-banner-foreground" />
+        <span className="font-bold font-display text-base">MC2</span>
         <List weight="bold" className="ml-1" />
       </Button>
     </PopoverTrigger>
@@ -47,12 +47,12 @@ export const NavMenu = () => (
         <NavGroup title="Navigation">
           <NavButton href="/explorer">
             <House weight="bold" />
-            Explore guilds
+            Explore worlds
           </NavButton>
 
           <NavButton href="/create-guild">
             <Plus weight="bold" />
-            Create guild
+            Create world
           </NavButton>
 
           <NavButton href="https://help.guild.xyz">
@@ -94,7 +94,7 @@ export const NavMenu = () => (
 
           <NavButton href="https://github.com/guildxyz/guild-sdk">
             <Package weight="bold" />
-            Guild SDK
+            Universe SDK
           </NavButton>
 
           <NavButton href="https://careers.guild.xyz">

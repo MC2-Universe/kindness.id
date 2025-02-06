@@ -14,7 +14,6 @@ import { Chat } from "@phosphor-icons/react"
 import { IpGeodata } from "app/api/ip-geodata/route"
 import Button from "components/common/Button"
 import useSWRImmutable from "swr/immutable"
-import { triggerChat } from "utils/intercom"
 
 const BLOCKED_COUNTRY_CODES = [
   "US",
@@ -86,12 +85,7 @@ export const GeogatedCountryPopover = ({ children, isDisabled }) => {
               not available in your country.
             </Link>
             {` We understand your frustration and are working hard to make it legally accessible. If you have any questions, feel free to `}
-            <Button
-              variant="link"
-              fontWeight={"semibold"}
-              onClick={triggerChat}
-              opacity="0.8"
-            >
+            <Button variant="link" fontWeight={"semibold"} opacity="0.8">
               reach out to us
               <Icon as={Chat} ml="1" mb="-0.5" />
             </Button>

@@ -39,7 +39,7 @@ export const GuildCard: React.FC<Props> = ({ guildData }) => (
             <CheckMark />
           </TooltipTrigger>
           <TooltipContent>
-            This guild is verified by <code>Guild.xyz</code>
+            This world is verified by <code>Guild.xyz</code>
           </TooltipContent>
         </Tooltip>
       )}

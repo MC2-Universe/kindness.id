@@ -52,7 +52,7 @@ const BalancyCounterWithPopover = ({ ...rest }) => {
               <PopoverArrow />
               <PopoverBody>
                 <Text>
-                  Number of addresses meeting the requirements for your guild.
+                  Number of addresses meeting the requirements for your world.
                 </Text>
 
                 <Wrap spacing={1} mt={3}>

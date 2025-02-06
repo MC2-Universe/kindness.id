@@ -87,7 +87,7 @@ export interface components {
       signature: string
     }
     OrderItem: {
-      /** @example Guild Pin */
+      /** @example Universal Badge */
       name: string
       /** @example 1 */
       quantity: number

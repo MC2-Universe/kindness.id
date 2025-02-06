@@ -81,7 +81,7 @@ export const GuildInfiniteScroll = ({
   if (!renderedGuilds?.length && !isLoading) {
     if (!isValidating && !search?.length) {
       return (
-        <div>Can't fetch guilds from the backend right now. Check back later!</div>
+        <div>Can't fetch worlds from the backend right now. Check back later!</div>
       )
     } else {
       return <div>{`No results for ${search}`}</div>

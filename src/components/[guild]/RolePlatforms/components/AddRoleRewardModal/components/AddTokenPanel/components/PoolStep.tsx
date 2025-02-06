@@ -92,7 +92,7 @@ const PoolStep = ({ onSubmit }: { onSubmit: () => void }) => {
     return (
       <Stack>
         <Text colorScheme="gray">
-          You're all set! You had already set up a pool for this token in your guild.
+          You're all set! You had already set up a pool for this token in your world.
         </Text>
         <Button
           size="lg"

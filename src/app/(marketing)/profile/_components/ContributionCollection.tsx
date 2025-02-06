@@ -79,7 +79,7 @@ export const ContributionCollection = ({
             </div>
 
             <CollectionItemHoverCardDetails
-              badges={<Badge size="sm">Guild Pin</Badge>}
+              badges={<Badge size="sm">Universal Badge</Badge>}
               title={`Minted ${guild.name} pin`}
             />
           </HoverCardContent>

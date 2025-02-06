@@ -94,7 +94,7 @@ const LayoutFooter = ({ className, children, ...props }: LayoutContainerProps) =
         <p className="my-8 text-center text-muted-foreground text-sm">
           {`This website is `}
           <Anchor
-            href="https://github.com/guildxyz/guild.xyz"
+            href="https://github.com/MC2-Universe/universe"
             target="_blank"
             showExternal
           >

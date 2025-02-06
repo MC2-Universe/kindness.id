@@ -166,7 +166,7 @@ const useMintGuildPin = () => {
       } catch {}
     }
 
-    captureEvent("Minted Guild Pin (GuildCheckout)", {
+    captureEvent("Minted Universal Badge (GuildCheckout)", {
       ...postHogOptions,
       $set: {
         mintedReward: true,
@@ -193,12 +193,12 @@ const useMintGuildPin = () => {
       })
     } catch {}
 
-    // TODO: trigger membership update only for a specific role (once Guild Pin will be a real reward)
+    // TODO: trigger membership update only for a specific role (once Universal Badge will be a real reward)
     triggerMembershipUpdate()
 
     toastWithShareButtons({
-      title: "Successfully minted Guild Pin!",
-      shareText: `Just minted my Guild Pin for joining ${name}!\nguild.xyz/${urlName}`,
+      title: "Successfully minted Universal Badge!",
+      shareText: `Just minted my Universal Badge for joining ${name}!\nguild.xyz/${urlName}`,
     })
 
     verifyPurchase(hash)
@@ -236,7 +236,7 @@ const useMintGuildPin = () => {
 
         showErrorToast(prettyError)
 
-        captureEvent("Mint Guild Pin error (GuildCheckout)", {
+        captureEvent("Mint Universal Badge error (GuildCheckout)", {
           ...postHogOptions,
           error: prettyError,
           originalError: error,

@@ -15,12 +15,12 @@ interface RootLayoutProps {
 }
 
 export const metadata: Metadata = {
-  title: "Guildhall",
-  applicationName: "Guildhall",
+  title: "MC2 Universe",
+  applicationName: "MC2 Universe",
   description:
     "Automated membership management for the platforms your community already uses.",
   icons: {
-    icon: "/guild-icon.png",
+    icon: "/icon-logo-mc2-crown.png",
   },
 }
 

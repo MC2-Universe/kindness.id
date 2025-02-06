@@ -34,7 +34,6 @@ import {
 import { useSymbolsOfPair } from "requirements/Uniswap/hooks/useSymbolsOfPair"
 import { useTokenSymbolsOfPoolVault } from "requirements/Uniswap/hooks/useTokenSymbolsOfPoolVault"
 import ChainPicker from "requirements/common/ChainPicker"
-import { triggerChat } from "utils/intercom"
 import parseFromObject from "utils/parseFromObject"
 import { CHAIN_CONFIG, Chains } from "wagmiConfig/chains"
 
@@ -197,12 +196,7 @@ const LiquidityPoolInfoTooltip = () => (
           Please note that our liquidity incentive setup flow only supports Uniswap
           V3 currently. If you require assistance with other liquidity protocols or
           platforms, please{" "}
-          <Button
-            variant="link"
-            textDecoration={"underline"}
-            fontSize="sm"
-            onClick={() => triggerChat()}
-          >
+          <Button variant="link" textDecoration={"underline"} fontSize="sm">
             contact our support team
           </Button>{" "}
           for further assistance!

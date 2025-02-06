@@ -145,7 +145,7 @@ const WalletSelectorModal = ({ isOpen, onClose }: Props): JSX.Element => {
       >
         <DialogHeader className="flex-row items-center gap-1.5">
           <DialogTitle className="-mt-1">
-            {isAddressLink ? "Link address" : "Connect to Guild"}
+            {isAddressLink ? "Link address" : "Connect to MC2 Universe"}
           </DialogTitle>
         </DialogHeader>
 

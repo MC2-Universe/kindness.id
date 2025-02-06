@@ -24,7 +24,7 @@ const RewardCardButton = ({
 
   if (!isMember)
     return (
-      <Tooltip label="Join guild to check access" hasArrow>
+      <Tooltip label="Join world to check access" hasArrow>
         <Button onClick={openJoinModal} variant="outline" {...buttonProps} />
       </Tooltip>
     )
