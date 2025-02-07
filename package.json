@@ -1,12 +1,13 @@
 {
-  "name": "guildxyz",
+  "name": "unite-kindness",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "prepare": "npm run snyk-protect && husky install",
     "dev": "next dev",
     "dev:turbo": "next dev --turbo",
-    "build": "NODE_OPTIONS='--max-old-space-size=4096' TS_CONFIG_PATH='./tsconfig.build.json' next build",
+    "build": "NODE_OPTIONS='--max-old-space-size=4096' TS_CONFIG_PATH='./tsconfig.build.json' next build --debug --experimental-build-mode compile",
+    "debug": "NODE_OPTIONS='--max-old-space-size=4096' next build --no-lint --debug",
     "start": "next start",
     "type-check": "NODE_OPTIONS='--max-old-space-size=4096' tsc --pretty --noEmit --incremental false --project './tsconfig.build.json'",
     "write-check": "npx @biomejs/biome check --write --unsafe .",

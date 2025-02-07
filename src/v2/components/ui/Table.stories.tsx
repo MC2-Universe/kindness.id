@@ -28,7 +28,7 @@ const TableExample = () => (
     <TableBody>
       <TableRow>
         <TableCell className="font-medium">INV001</TableCell>
-        <TableCell>Universal Badge</TableCell>
+        <TableCell>Kindness Badge</TableCell>
         <TableCell>{shortenHex(NULL_ADDRESS)}</TableCell>
         <TableCell>{new Date().toLocaleDateString()}</TableCell>
         <TableCell className="text-right">$250.00</TableCell>

@@ -14,7 +14,7 @@ const UsersGuildPins = () => {
 
   return (
     <>
-      <AccountSectionTitle title="Universal Badges" />
+      <AccountSectionTitle title="Kindness Badges" />
 
       {error ? (
         <Alert variant="info" className="mb-3">
@@ -49,7 +49,7 @@ const UsersGuildPins = () => {
                 />
               ))
             ) : (
-              <p className="text-sm">You haven't minted any Universal Badges yet</p>
+              <p className="text-sm">You haven't minted any Kindness Badges yet</p>
             )}
           </div>
         </div>

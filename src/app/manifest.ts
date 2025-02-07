@@ -19,21 +19,21 @@ export default function manifest(): MetadataRoute.Manifest {
     ],
     icons: [
       {
-        src: `icon-logo-mc2-crown.svg`,
+        src: `kindness-icon.svg`,
         sizes: `64x64`,
         type: "image/svg",
         // @ts-ignore: "maskable any" is not typed out as an option
         purpose: "maskable any",
       },
       {
-        src: `icon-logo-mc2-crown.png`,
+        src: `kindness-icon.png`,
         sizes: `144x144`,
         type: "image/png",
         // @ts-ignore: "maskable any" is not typed out as an option
         purpose: "maskable any",
       },
       {
-        src: `icon-logo-mc2-crown.png`,
+        src: `kindness-icon.png`,
         sizes: `64x64`,
         type: "image/png",
         purpose: "maskable",

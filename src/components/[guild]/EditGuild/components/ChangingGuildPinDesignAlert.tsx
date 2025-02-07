@@ -25,10 +25,10 @@ const ChangingGuildPinDesignAlert = ({
     <Alert leastDestructiveRef={cancelRef} onClose={onClose} {...rest}>
       <AlertDialogOverlay>
         <AlertDialogContent>
-          <AlertDialogHeader>Edit Universal Badge design?</AlertDialogHeader>
+          <AlertDialogHeader>Edit Kindness Badge design?</AlertDialogHeader>
           <AlertDialogBody>
             Changing the image, name or color of your world will affect the
-            appearance of the mintable Universal Badge too. Users who have already
+            appearance of the mintable Kindness Badge too. Users who have already
             minted will see the previous version, while future minters will see the
             new one. Would you like to proceed?
           </AlertDialogBody>

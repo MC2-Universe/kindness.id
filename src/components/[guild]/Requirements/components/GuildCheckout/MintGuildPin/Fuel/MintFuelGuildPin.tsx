@@ -43,7 +43,7 @@ const MintFuelGuildPin = () => {
               : () => {
                   onOpen()
                   captureEvent(
-                    "Click: Mint Fuel Universal Badge (GuildPinRewardCard)",
+                    "Click: Mint Fuel Kindness Badge (GuildPinRewardCard)",
                     {
                       guild: urlName,
                     }
@@ -63,7 +63,7 @@ const MintFuelGuildPin = () => {
               }
             : {})}
         >
-          Mint Universal Badge
+          Mint Kindness Badge
         </Button>
       </Tooltip>
 
@@ -72,7 +72,7 @@ const MintFuelGuildPin = () => {
         <ModalContent>
           <ModalHeader pb={4} pr={16}>
             <Text as="span" mr={2}>
-              Mint Universal Badge
+              Mint Kindness Badge
             </Text>
           </ModalHeader>
           <ModalCloseButton />

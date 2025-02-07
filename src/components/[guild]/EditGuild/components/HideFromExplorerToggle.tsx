@@ -10,7 +10,7 @@ const HideFromExplorerToggle = (): JSX.Element => {
       <Switch
         {...register("hideFromExplorer")}
         title="Hide from explorer"
-        description="Your world is verified, thus it is shown by default on the MC2 Universe explorer homepage. You can opt out of that here"
+        description="Your world is verified, thus it is shown by default on the Unite Kindness explorer homepage. You can opt out of that here"
       />
     </FormControl>
   )

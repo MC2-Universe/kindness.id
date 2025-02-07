@@ -118,11 +118,11 @@ const useMintFuelGuildPin = () => {
 
     await waitForResult()
 
-    captureEvent("Minted Fuel Universal Badge (GuildCheckout)", postHogOptions)
+    captureEvent("Minted Fuel Kindness Badge (GuildCheckout)", postHogOptions)
 
     toastWithShareButtons({
-      title: "Successfully minted Universal Badge!",
-      shareText: `Just minted my Universal Badge for joining ${name}!\nguild.xyz/${urlName}`,
+      title: "Successfully minted Kindness Badge!",
+      shareText: `Just minted my Kindness Badge for joining ${name}!\nguild.xyz/${urlName}`,
     })
   }
 
@@ -134,7 +134,7 @@ const useMintFuelGuildPin = () => {
         const prettyError = error.correlationId ? error : error.message
         showErrorToast(prettyError)
 
-        captureEvent("Mint Fuel Universal Badge error (GuildCheckout)", {
+        captureEvent("Mint Fuel Kindness Badge error (GuildCheckout)", {
           ...postHogOptions,
           error,
         })

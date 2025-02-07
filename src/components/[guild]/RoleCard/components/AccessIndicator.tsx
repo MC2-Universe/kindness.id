@@ -54,7 +54,7 @@ const AccessIndicator = ({ roleId, isOpen, onToggle }: Props): JSX.Element => {
         onClick={openJoinModal}
         className={cn(ACCESS_INDICATOR_CLASSNAME, "w-full sm:max-w-max")}
       >
-        Join World to check access
+        Join Kindness to check access
       </Button>
     )
 

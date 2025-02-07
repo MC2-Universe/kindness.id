@@ -78,7 +78,7 @@ const NftRequirement = (props: RequirementProps) => {
           <DataBlock>{guildPinGuildName}</DataBlock>
         </>
       )}
-      <span>{" Universal Badge"}</span>
+      <span>{" Kindness Badge"}</span>
     </>
   ) : (
     metadataWithTraits?.name || metadata?.name

@@ -37,7 +37,7 @@ const useExploreGuilds = (searchParams?: SearchParams) => {
     (pageIndex, previousPageData) => {
       if (Array.isArray(previousPageData) && previousPageData.length !== BATCH_SIZE)
         return null
-      const url = new URL("/v2/guilds", env.NEXT_PUBLIC_API)
+      const url = new URL("/v2/guilds?search=demo", env.NEXT_PUBLIC_API)
       const params: Record<string, string> = {
         order: "FEATURED",
         ...searchParams,
@@ -81,7 +81,7 @@ export const GuildInfiniteScroll = ({
   if (!renderedGuilds?.length && !isLoading) {
     if (!isValidating && !search?.length) {
       return (
-        <div>Can't fetch worlds from the backend right now. Check back later!</div>
+        <div>Can't fetch kindness from the backend right now. Check back later!</div>
       )
     } else {
       return <div>{`No results for ${search}`}</div>

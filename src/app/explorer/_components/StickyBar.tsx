@@ -50,7 +50,7 @@ const Nav = () => {
         })}
         onClick={() => smoothScrollTo(ActiveSection.YourGuilds)}
       >
-        Your worlds
+        Your kindness
       </ToggleGroupItem>
       <ToggleGroupItem
         value={ActiveSection.ExploreGuilds}
@@ -59,7 +59,7 @@ const Nav = () => {
         })}
         onClick={() => smoothScrollTo(ActiveSection.ExploreGuilds)}
       >
-        Explore worlds
+        Explore kindness
       </ToggleGroupItem>
     </ToggleGroup>
   )
@@ -70,7 +70,7 @@ const CreateGuildLink = () => {
   return (
     <Link
       href="/create-guild"
-      aria-label="Create world"
+      aria-label="Create world of kindness"
       prefetch={false}
       className={buttonVariants({
         variant: "ghost",

@@ -130,7 +130,7 @@ export const wagmiConfig = IS_TEST
   : createConfig({
       /**
        * We should consider adding only those chains here which we actually use for
-       * client-side interactions (e.g. where users can mint Universal Badges, NFTs, buy tokens,
+       * client-side interactions (e.g. where users can mint Kindness Badges, NFTs, buy tokens,
        * etc.)
        */
       chains: [
@@ -282,7 +282,7 @@ export const wagmiConfig = IS_TEST
         injected(),
         coinbaseWallet({
           appName: "Guild.xyz",
-          appLogoUrl: "https://guild.xyz/icon-logo-mc2-crown.png",
+          appLogoUrl: "https://guild.xyz/kindness-icon.png",
           version: "4",
         }),
         walletConnect({

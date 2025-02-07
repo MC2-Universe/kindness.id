@@ -21,14 +21,14 @@ const GuildPinReward = (): JSX.Element => {
           w="full"
           zIndex={1}
           src={`${env.NEXT_PUBLIC_IPFS_GATEWAY}${pinImage}`}
-          alt="Universal Badge image"
+          alt="Kindness Badge image"
           borderRadius="full"
           boxSize="6"
         />
       }
       label={
         <>
-          {`Universal Badge: `}
+          {`Kindness Badge: `}
           <Text as="span" fontWeight={"semibold"}>
             {guildPinDescription[pinType]}
           </Text>

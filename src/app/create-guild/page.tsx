@@ -6,7 +6,7 @@ import { CreateGuildCard } from "./_components/CreateGuildCard"
 import { CreateGuildFormProvider } from "./_components/CreateGuildFormProvider"
 
 export const metadata = {
-  title: "Begin your world",
+  title: "Begin your world of kindness",
 }
 
 const Page = () => (

@@ -20,7 +20,7 @@ import dynamic from "next/dynamic"
 import Link, { LinkProps } from "next/link"
 import { usePathname } from "next/navigation"
 import { AnchorHTMLAttributes, ReactNode } from "react"
-import GuildLogo from "static/logo.svg"
+import GuildLogo from "static/kindness-icon.svg"
 import { ThemeToggle } from "../ThemeToggle"
 import { Button } from "../ui/Button"
 import { Popover, PopoverContent, PopoverTrigger } from "../ui/Popover"
@@ -35,7 +35,7 @@ export const NavMenu = () => (
     <PopoverTrigger asChild>
       <Button className="rounded-2xl text-banner-foreground" variant="ghost">
         <GuildLogo className="size-4 text-banner-foreground" />
-        <span className="font-bold font-display text-base">MC2</span>
+        <span className="font-bold font-display text-base">Unite Kindness</span>
         <List weight="bold" className="ml-1" />
       </Button>
     </PopoverTrigger>
@@ -47,20 +47,20 @@ export const NavMenu = () => (
         <NavGroup title="Navigation">
           <NavButton href="/explorer">
             <House weight="bold" />
-            Explore worlds
+            Explore kindness
           </NavButton>
 
           <NavButton href="/create-guild">
             <Plus weight="bold" />
-            Create world
+            Create kindness
           </NavButton>
 
-          <NavButton href="https://help.guild.xyz">
+          <NavButton href="https://help.kindness.id">
             <Info weight="bold" />
             Guide
           </NavButton>
 
-          <NavButton href="https://help.guild.xyz/en/collections/9537762-case-studies">
+          <NavButton href="https://help.kindness.id/en/collections/9537762-case-studies">
             <Book weight="bold" />
             Case studies
           </NavButton>
@@ -82,27 +82,27 @@ export const NavMenu = () => (
             Discord
           </NavButton>
 
-          <NavButton href="https://twitter.com/guildxyz">
+          <NavButton href="https://twitter.com/unite-kindness">
             <XLogo weight="bold" />
             Twitter
           </NavButton>
 
-          <NavButton href="https://github.com/guildxyz/guild.xyz">
+          <NavButton href="https://github.com/MC2-Universe/universe">
             <Code weight="bold" />
             Code
           </NavButton>
 
           <NavButton href="https://github.com/guildxyz/guild-sdk">
             <Package weight="bold" />
-            Universe SDK
+            SDK
           </NavButton>
 
-          <NavButton href="https://careers.guild.xyz">
+          <NavButton href="https://careers.kindness.id">
             <UsersThree weight="bold" />
             Team
           </NavButton>
 
-          <NavButton href="https://guild.xyz/guild-xyz-brand-kit.zip">
+          <NavButton href="#/unite-kindness-brand-kit.zip">
             <Palette weight="bold" />
             Brand kit
           </NavButton>

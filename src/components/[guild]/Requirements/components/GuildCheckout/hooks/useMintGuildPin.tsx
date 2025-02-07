@@ -166,7 +166,7 @@ const useMintGuildPin = () => {
       } catch {}
     }
 
-    captureEvent("Minted Universal Badge (GuildCheckout)", {
+    captureEvent("Minted Kindness Badge (GuildCheckout)", {
       ...postHogOptions,
       $set: {
         mintedReward: true,
@@ -193,12 +193,12 @@ const useMintGuildPin = () => {
       })
     } catch {}
 
-    // TODO: trigger membership update only for a specific role (once Universal Badge will be a real reward)
+    // TODO: trigger membership update only for a specific role (once Kindness Badge will be a real reward)
     triggerMembershipUpdate()
 
     toastWithShareButtons({
-      title: "Successfully minted Universal Badge!",
-      shareText: `Just minted my Universal Badge for joining ${name}!\nguild.xyz/${urlName}`,
+      title: "Successfully minted Kindness Badge!",
+      shareText: `Just minted my Kindness Badge for joining ${name}!\nguild.xyz/${urlName}`,
     })
 
     verifyPurchase(hash)
@@ -236,7 +236,7 @@ const useMintGuildPin = () => {
 
         showErrorToast(prettyError)
 
-        captureEvent("Mint Universal Badge error (GuildCheckout)", {
+        captureEvent("Mint Kindness Badge error (GuildCheckout)", {
           ...postHogOptions,
           error: prettyError,
           originalError: error,

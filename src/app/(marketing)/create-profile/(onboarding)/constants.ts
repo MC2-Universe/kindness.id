@@ -13,20 +13,21 @@ export const SUBSCRIPTIONS = [
     title: "Single Pass",
     pricing: "$6 / month",
     pricingShort: "$6 / month",
-    description: "For the curious, who want to try MC2 Universe’s new features",
+    description: "For the curious, who want to try Unite Kindness’s new features",
   },
   {
     title: "Bundle Pass",
     pricing: "$60 / year",
     pricingShort: "$60 / year",
     description:
-      "For the professionals, who would benefit from the Universe continuously",
+      "For the professionals, who would benefit from Kindness continuously",
   },
   {
     title: "Lifetime Pass",
     pricing: "0.1 ETH one time",
     pricingShort: "0.1 ETH",
-    description: "For our biggest supporters, who are excited for the future of MC2",
+    description:
+      "For our biggest supporters, who are excited for the future of Unite Kindness",
   },
 ] as const satisfies {
   title: string
@@ -44,12 +45,12 @@ export const BENEFITS = [
   },
   {
     title: "Unlock exclusive rewards",
-    description: "Pass holders can access unique and one-off rewards from worlds",
+    description: "Pass holders can access unique and one-off rewards for kindness",
     isAvailable: true,
     image: bustInSilhouette,
   },
   {
-    title: "Get early access to MC2 Universe features",
+    title: "Get early access to Unite Kindness features",
     description: "Be the first to unlock and experience our newest features",
     isAvailable: true,
     image: unlocked,
@@ -71,14 +72,14 @@ export const BENEFITS = [
   {
     title: "Alpha Explorer",
     description:
-      "Unlock secret worlds and earn exclusive rewards before they become popular",
+      "Unlock secret worlds of kindness and earn exclusive rewards before they become popular",
     isAvailable: false,
     image: compass,
   },
   {
     title: "Be part of Gold community",
     description:
-      "Shape MC2 Universe's future — your ideas drive what we build and when we build it",
+      "Shape Unite Kindness's future — your ideas drive what we build and when we build it",
     isAvailable: false,
     image: peopleWithBunnyEars,
   },

@@ -10,7 +10,7 @@ const Head = ({ ogTitle, ogDescription, imageUrl }: Props) => (
   <NextHead>
     <title>{ogTitle}</title>
     <meta property="og:title" content={ogTitle} />
-    <link rel="shortcut icon" href={imageUrl ?? "/icon-logo-mc2-crown.png"} />
+    <link rel="shortcut icon" href={imageUrl ?? "/kindness-icon.png"} />
     {ogDescription && (
       <>
         <meta name="description" content={ogDescription} />

@@ -45,7 +45,7 @@ const useCreateGuild = ({
     onSuccess: (response_) => {
       confettiPlayer.current("Confetti from left and right")
 
-      captureEvent("Created guild", {
+      captureEvent("Created kindness", {
         $set: {
           createdGuild: true,
         },
@@ -61,7 +61,7 @@ const useCreateGuild = ({
       )
 
       toast({
-        title: "Guild successfully created!",
+        title: "Kindness successfully created!",
         description: "You're being redirected to its page",
         variant: "success",
       })

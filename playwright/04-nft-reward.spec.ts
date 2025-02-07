@@ -18,7 +18,7 @@ test("fill nft form and deploy a contract", async ({
     .getByTestId("add-solutions-button")
   await addSolutionButton.click()
   const addSolutionsModal = await page.getByRole("dialog", {
-    name: "Guild Solutions",
+    name: "Kindness Solutions",
   })
   await expect(addSolutionsModal).toBeVisible()
 

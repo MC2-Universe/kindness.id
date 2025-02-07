@@ -43,7 +43,7 @@ const ActivateGuildPinForm = (): JSX.Element => {
     toast({
       status: "success",
       title: "Success",
-      description: "Successfully activated Universal Badge",
+      description: "Successfully activated Kindness Badge",
     })
     onActivateModalClose()
   }
@@ -138,9 +138,9 @@ const ActivateGuildPinForm = (): JSX.Element => {
           w="full"
           onClick={methods.handleSubmit(activateGuildPin)}
           isLoading={isLoading}
-          loadingText="Activating Universal Badge"
+          loadingText="Activating Kindness Badge"
         >
-          {setupRequired ? "Setup required" : "Activate Universal Badge"}
+          {setupRequired ? "Setup required" : "Activate Kindness Badge"}
         </Button>
       </Stack>
     </FormProvider>

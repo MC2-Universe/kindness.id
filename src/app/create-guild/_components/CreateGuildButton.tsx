@@ -40,7 +40,7 @@ const CreateGuildButton = () => {
         onClick={handleSubmit(onSubmit)}
         disabled={!isWeb3Connected}
       >
-        Create world
+        Create world of kindness
       </Button>
     </div>
   )

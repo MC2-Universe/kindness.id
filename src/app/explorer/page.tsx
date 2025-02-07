@@ -24,8 +24,8 @@ export const metadata = {
 }
 
 const Page = async ({ searchParams }: { searchParams: SearchParams }) => {
-  const featuredPath = `/v2/guilds?order=FEATURED&offset=0&limit=24`
-  const newestPath = `/v2/guilds?order=NEWEST&offset=0&limit=24`
+  const featuredPath = `/v2/guilds?order=FEATURED&offset=0&limit=24&search=guild`
+  const newestPath = `/v2/guilds?order=NEWEST&offset=0&limit=24&search=guild`
   const [ssrFeaturedGuilds, ssrNewestGuilds] = await Promise.all([
     fetch(`${env.NEXT_PUBLIC_API.replace("/v1", "")}${featuredPath}`, {
       next: {
@@ -63,7 +63,7 @@ const Page = async ({ searchParams }: { searchParams: SearchParams }) => {
           <Header />
 
           <LayoutHeadline id={ActiveSection.YourGuilds}>
-            <LayoutTitle>MC2 Universe</LayoutTitle>
+            <LayoutTitle>Unite Kindness</LayoutTitle>
           </LayoutHeadline>
         </LayoutHero>
 

@@ -33,7 +33,7 @@ const ActivateGuildPinModal = (): JSX.Element => {
     >
       <ModalOverlay />
       <ModalContent>
-        <ModalHeader pb={4}>Setup Universal Badge</ModalHeader>
+        <ModalHeader pb={4}>Setup Kindness Badge</ModalHeader>
 
         <ModalBody pb="6">
           <Alert status="info" mb="6" pb="5">
@@ -42,7 +42,7 @@ const ActivateGuildPinModal = (): JSX.Element => {
               <AlertDescription>
                 {error ??
                   (isTooSmallImage
-                    ? "Please upload a bigger image in guild settings to activate Universal Badge"
+                    ? "Please upload a bigger image in guild settings to activate Kindness Badge"
                     : "Onchain badge for members to show support and belonging to this community. Activate it to let members see the reward and mint their Pins!")}
               </AlertDescription>
 

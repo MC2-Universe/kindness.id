@@ -4,7 +4,7 @@ import useSWRImmutable from "swr/immutable"
 import { GuildPinMetadata } from "types"
 
 /**
- * Note: we can only fetch Fuel Universal Badges if the user's Fuel(et) Wallet is
+ * Note: we can only fetch Fuel Kindness Badges if the user's Fuel(et) Wallet is
  * connected, since it is required to send a small amount of ETH with each
  * transaction
  *

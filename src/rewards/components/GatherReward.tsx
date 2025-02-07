@@ -59,7 +59,7 @@ const GatherReward = ({ platform }: RewardProps) => {
         tooltipLabel: (
           <>
             <Icon as={LockSimple} display="inline" mb="-2px" mr="1" />
-            Join world to check access
+            Join kindness to check access
           </>
         ),
         buttonProps: { onClick: openJoinModal },

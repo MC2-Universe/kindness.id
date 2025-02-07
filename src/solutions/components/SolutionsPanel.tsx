@@ -95,7 +95,7 @@ const SolutionsPanel = ({
           textAlign={{ md: "center" }}
           wordBreak={"break-word"}
         >
-          Guild Solutions
+          Kindness Solutions
         </Heading>
 
         <Stack

@@ -15,12 +15,12 @@ interface RootLayoutProps {
 }
 
 export const metadata: Metadata = {
-  title: "MC2 Universe",
-  applicationName: "MC2 Universe",
+  title: "Unite Kindness",
+  applicationName: "Unite Kindness",
   description:
     "Automated membership management for the platforms your community already uses.",
   icons: {
-    icon: "/icon-logo-mc2-crown.png",
+    icon: "/kindness-icon.png",
   },
 }
 
