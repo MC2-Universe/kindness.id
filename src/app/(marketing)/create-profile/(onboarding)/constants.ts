@@ -57,7 +57,7 @@ export const BENEFITS = [
   },
   {
     title: "Priority support",
-    description: "Get help within hours when launching kindness campaigns",
+    description: "Get help within hours when launching kindness quests",
     isAvailable: true,
     image: speechBalloon,
   },

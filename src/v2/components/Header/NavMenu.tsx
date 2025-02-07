@@ -55,14 +55,14 @@ export const NavMenu = () => (
             Create kindness
           </NavButton>
 
-          <NavButton href="https://help.kindness.id">
+          <NavButton href="https://playmc2.com/unitekindness">
             <Info weight="bold" />
-            Guide
+            Mission
           </NavButton>
 
-          <NavButton href="https://help.kindness.id/en/collections/9537762-case-studies">
+          <NavButton href="https://playmc2.com/protocols/kindness">
             <Book weight="bold" />
-            Case studies
+            Guide
           </NavButton>
 
           <NavButton href="/privacy-policy">
@@ -82,27 +82,27 @@ export const NavMenu = () => (
             Discord
           </NavButton>
 
-          <NavButton href="https://twitter.com/unite-kindness">
+          <NavButton href="https://unitekindness.dao/">
             <XLogo weight="bold" />
-            Twitter
+            DAO
           </NavButton>
 
-          <NavButton href="https://github.com/MC2-Universe/kindness.id">
+          <NavButton href="https://dao.hypha.earth/kindness">
             <Code weight="bold" />
-            Code
+            Hypha
           </NavButton>
 
-          <NavButton href="https://github.com/guildxyz/guild-sdk">
+          <NavButton href="https://app.aragon.org/#/daos/polygon/0xff1ea398c595bb4b0dc7b3cbeda1f2b53715ecd9">
             <Package weight="bold" />
-            SDK
+            Aragon
           </NavButton>
 
-          <NavButton href="https://careers.kindness.id">
+          <NavButton href="https://playmc2.com">
             <UsersThree weight="bold" />
             Team
           </NavButton>
 
-          <NavButton href="#/unite-kindness-brand-kit.zip">
+          <NavButton href="https://playmc2.com/kindness.id-brand-kit.zip">
             <Palette weight="bold" />
             Brand kit
           </NavButton>
