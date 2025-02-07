@@ -5,7 +5,7 @@ export async function GET() {
   const baseUrl = {
     development: "http://localhost:3000",
     test: "http://localhost:3000",
-    production: "https://guild.xyz",
+    production: "https://kindness.id",
   }[process.env.NODE_ENV]
 
   const guilds: GuildBase[] = await fetch(

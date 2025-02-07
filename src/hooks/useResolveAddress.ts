@@ -19,7 +19,7 @@ const UNSTOPPABLE_DOMAIN_CONTRACTS: Record<UnstoppableDomainsChains, string> = {
 
 type IDBResolvedAddress = { resolvedAddress: string; createdAt: number }
 const getStore = () =>
-  createStore("resolved-addresses.guild.xyz", "resolvedAddresses")
+  createStore("resolved-addresses.kindness.id", "resolvedAddresses")
 
 const getResolvedAddressFromIdb = (address: string) =>
   get<IDBResolvedAddress>(address, getStore())

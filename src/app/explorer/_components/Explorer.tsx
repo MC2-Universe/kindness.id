@@ -20,7 +20,7 @@ export const Explorer = ({ searchParams }: { searchParams: SearchParams }) => {
       <YourGuilds />
       <section id={ActiveSection.ExploreGuilds} className="flex flex-col gap-5">
         <h2 className="font-bold text-lg tracking-tight">
-          Explore verified kindness
+          Explore verified kindness quests
         </h2>
 
         <div className="sticky top-12 z-10" ref={searchRef}>

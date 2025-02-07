@@ -264,7 +264,7 @@ const useCollectNft = () => {
           }!`,
           shareText: `Just collected my ${name} NFT${
             amount > 1 ? "s" : ""
-          }!\nguild.xyz/${urlName}/collect/${chain.toLowerCase()}/${nftAddress.toLowerCase()}`,
+          }!\nkindness.id/${urlName}/collect/${chain.toLowerCase()}/${nftAddress.toLowerCase()}`,
         })
       },
       onError: (error) => {

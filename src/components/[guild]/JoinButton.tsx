@@ -16,7 +16,7 @@ const JoinButton = (): JSX.Element => {
         onClick={openJoinModal}
         data-testid="join-button"
       >
-        Join Kindness
+        Join quest
       </Button>
     </StickyAction>
   )

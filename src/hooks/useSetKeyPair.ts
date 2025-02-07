@@ -23,12 +23,12 @@ function getSiweMessage({
   const nonce = `${hash}${nonceRandom}${method ?? 1}`
 
   // Indentation is important inside the string, extra indentation would be extra whitespace in the string
-  return `guild.xyz wants you to sign in with your Ethereum account:
+  return `kindness.id wants you to sign in with your Ethereum account:
 ${checksumAddress(addr as `0x${string}`)}
 
-Sign in Guild.xyz
+Sign in kindness.id
 
-URI: https://guild.xyz
+URI: https://kindness.id
 Version: 1
 Chain ID: ${chainId ?? 1}
 Nonce: ${nonce}
@@ -135,7 +135,7 @@ const useSetKeyPair = (submitOptions?: UseSubmitOptions) => {
           body,
           signOptions: {
             forcePrompt: true,
-            msg: "Sign in Guild.xyz",
+            msg: "Sign in Kindness.id",
             ...signProps,
             getMessageToSign: walletType === "EVM" ? getSiweMessage : undefined,
           },

@@ -56,7 +56,7 @@ const TxSuccess = ({
             className="w-full"
             onClick={openJoinModal}
           >
-            Join world
+            Join quest
           </Button>
         )}
       </DialogFooter>

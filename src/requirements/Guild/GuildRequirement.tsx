@@ -134,8 +134,8 @@ const UserSince = (props: RequirementProps): JSX.Element => {
   const requirement = useRequirementContext<"GUILD_USER_SINCE">()
 
   return (
-    <Requirement image="/requirementLogos/guild.png" {...props}>
-      <span>{"Be a Guild.xyz user since at least "}</span>
+    <Requirement image="/requirementLogos/upi.png" {...props}>
+      <span>{"Be a Kindness.id holder since at least "}</span>
       <DataBlockWithDate timestamp={requirement.data.creationDate.toString()} />
     </Requirement>
   )
@@ -145,8 +145,8 @@ const MinGuilds = (props: RequirementProps): JSX.Element => {
   const requirement = useRequirementContext<"GUILD_MINGUILDS">()
 
   return (
-    <Requirement image="/requirementLogos/guild.png" {...props}>
-      {`Be a member of at least ${pluralize(requirement.data.minAmount, "guild")}`}
+    <Requirement image="/requirementLogos/upi.png" {...props}>
+      {`Be a member of at least ${pluralize(requirement.data.minAmount, "kindness quest(s)")}`}
     </Requirement>
   )
 }
@@ -155,7 +155,7 @@ const Admin = (props: RequirementProps): JSX.Element => {
   const requirement = useRequirementContext<"GUILD_ADMIN">()
 
   return (
-    <Requirement image="/requirementLogos/guild.png" {...props}>
+    <Requirement image="/requirementLogos/upi.png" {...props}>
       {`Be an admin of a guild${
         requirement.data.minAmount > 0
           ? ` with at least ${pluralize(requirement.data.minAmount, "member")}`

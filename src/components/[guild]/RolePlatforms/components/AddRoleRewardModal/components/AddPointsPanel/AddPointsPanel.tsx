@@ -107,7 +107,7 @@ const AddPointsPanel = ({ onAdd, onCancel }: AddRewardPanelProps) => {
     <FormProvider {...methods}>
       <DefaultAddRewardPanelWrapper onCancel={onCancel}>
         <Text colorScheme="gray" fontWeight="semibold" mb="8">
-          Gamify your world with a score system, so users can collect points / XP /
+          Gamify your quest with a score system, so users can collect points / XP /
           your custom branded score, and compete on a leaderboard. You’ll also be
           able to set points based requirements for satisfying higher level roles!
         </Text>

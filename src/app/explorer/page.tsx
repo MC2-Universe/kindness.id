@@ -63,7 +63,7 @@ const Page = async ({ searchParams }: { searchParams: SearchParams }) => {
           <Header />
 
           <LayoutHeadline id={ActiveSection.YourGuilds}>
-            <LayoutTitle>Unite Kindness</LayoutTitle>
+            <LayoutTitle>Kindness Quests</LayoutTitle>
           </LayoutHeadline>
         </LayoutHero>
 

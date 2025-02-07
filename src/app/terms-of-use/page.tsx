@@ -25,14 +25,14 @@ const Page = (): JSX.Element => (
     <LayoutMain className="prose prose-counters flex max-w-screen-md flex-col gap-8 prose-headings:font-display prose-headings:text-foreground prose-li:text-foreground text-foreground marker:text-foreground">
       <section>
         <h2>Terms of Use</h2>
-        <p>Welcome to Guild.xyz!</p>
+        <p>Welcome to Kindness.id!</p>
         <p>
-          Guild.xyz is an online platform for automated membership management of
+          Kindness.id is an online platform for automated membership management of
           communities based on blockchain. This term of use (&quot;this
           Agreement&quot;) governs your access to and use of the services available
           at
           <Anchor href="/" variant="highlighted">
-            https://guild.xyz/
+            https://kindness.id/
           </Anchor>
           (&quot;Website&quot;) and any relating technologies, functionalities,
           features, and software (the &quot;Services&quot;).
@@ -281,7 +281,7 @@ const Page = (): JSX.Element => (
             fees, payment method and in the currency quoted at the time of the
             initiation of the transaction. (i) Protocol Fee: This fee is for the use
             of smart contracts that forward the transaction to the final destination.
-            These smart contracts are deployed by Guild.xyz. (ii) Gas Fee: This fee
+            These smart contracts are deployed by Kindness.id. (ii) Gas Fee: This fee
             is for the Ethereum nodes to validate the transaction. It is not related
             to Guild. Read about it here:
             https://www.investopedia.com/terms/g/gas-ethereum.asp Transaction fees
@@ -629,8 +629,8 @@ const Page = (): JSX.Element => (
             Services may be communicated by the following means: (i) by sending a
             letter to the address of the Service Provider (6720 Szeged, Kelemen
             László utca 11.) or (ii) by sending an e-mail to
-            <Anchor href="mailto:help@guild.xyz" variant="highlighted">
-              help@guild.xyz
+            <Anchor href="mailto:help@kindness.id" variant="highlighted">
+              help@kindness.id
             </Anchor>
             . Any consumer complaint will be assessed and duly answered within 30
             days from the date when the complaint is received. If your complaint is
@@ -654,8 +654,8 @@ const Page = (): JSX.Element => (
             the form of an email. Notices through email will be deemed to have been
             duly given the day after it is sent. The Service Provider may be
             contacted at
-            <Anchor href="mailto:help@guild.xyz" variant="highlighted">
-              help@guild.xyz
+            <Anchor href="mailto:help@kindness.id" variant="highlighted">
+              help@kindness.id
             </Anchor>
             . The Service Provider reserves the right to make reasonable steps to
             verify your identity before responding to or acting upon Customer&#39;s

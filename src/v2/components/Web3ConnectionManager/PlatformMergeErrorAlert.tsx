@@ -79,7 +79,7 @@ const PlatformMergeErrorAlert = () => {
                 <a
                   target="_blank"
                   href={
-                    "https://help.guild.xyz/en/articles/6947559-how-to-un-link-wallet-addresses"
+                    "https://help.kindness.id/en/articles/6947559-how-to-un-link-wallet-addresses"
                   }
                   className={anchorVariants({ variant: "highlighted" })}
                 >

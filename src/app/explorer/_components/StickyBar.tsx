@@ -70,7 +70,7 @@ const CreateGuildLink = () => {
   return (
     <Link
       href="/create-guild"
-      aria-label="Create world of kindness"
+      aria-label="Create quest of kindness"
       prefetch={false}
       className={buttonVariants({
         variant: "ghost",
@@ -85,7 +85,7 @@ const CreateGuildLink = () => {
       })}
     >
       <Plus />
-      <span className="hidden sm:inline-block">Create world</span>
+      <span className="hidden sm:inline-block">Create quest</span>
     </Link>
   )
 }

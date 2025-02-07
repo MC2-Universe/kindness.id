@@ -72,7 +72,7 @@ const SendDiscordJoinButtonModal = ({
         <ModalBody>
           <Text mb="8">
             The bot will send a join button as an entry point for Discord users to
-            join your world. Feel free to customize it below!
+            join your quest. Feel free to customize it below!
           </Text>
 
           <FormProvider {...methods}>

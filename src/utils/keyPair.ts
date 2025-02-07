@@ -6,7 +6,7 @@ export type StoredKeyPair = {
 }
 
 function getStore() {
-  return createStore("guild.xyz", "signingKeyPairs")
+  return createStore("kindness.id", "signingKeyPairs")
 }
 
 export function getKeyPairFromIdb(userId: number) {

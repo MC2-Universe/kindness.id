@@ -27,7 +27,7 @@ const ChangingGuildPinDesignAlert = ({
         <AlertDialogContent>
           <AlertDialogHeader>Edit Kindness Badge design?</AlertDialogHeader>
           <AlertDialogBody>
-            Changing the image, name or color of your world will affect the
+            Changing the image, name or color of your quest will affect the
             appearance of the mintable Kindness Badge too. Users who have already
             minted will see the previous version, while future minters will see the
             new one. Would you like to proceed?

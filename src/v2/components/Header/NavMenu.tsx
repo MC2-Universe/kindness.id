@@ -20,7 +20,7 @@ import dynamic from "next/dynamic"
 import Link, { LinkProps } from "next/link"
 import { usePathname } from "next/navigation"
 import { AnchorHTMLAttributes, ReactNode } from "react"
-import GuildLogo from "static/kindness-icon.svg"
+import GuildLogo from "static/upi.svg"
 import { ThemeToggle } from "../ThemeToggle"
 import { Button } from "../ui/Button"
 import { Popover, PopoverContent, PopoverTrigger } from "../ui/Popover"
@@ -35,7 +35,7 @@ export const NavMenu = () => (
     <PopoverTrigger asChild>
       <Button className="rounded-2xl text-banner-foreground" variant="ghost">
         <GuildLogo className="size-4 text-banner-foreground" />
-        <span className="font-bold font-display text-base">Unite Kindness</span>
+        <span className="font-bold font-display text-base">Kindness</span>
         <List weight="bold" className="ml-1" />
       </Button>
     </PopoverTrigger>
@@ -77,7 +77,7 @@ export const NavMenu = () => (
         </NavGroup>
 
         <NavGroup title="Other">
-          <NavButton href="https://discord.gg/KUkghUdk2G">
+          <NavButton href="https://discord.gg/mRymmjCt">
             <DiscordLogo weight="bold" />
             Discord
           </NavButton>
@@ -87,7 +87,7 @@ export const NavMenu = () => (
             Twitter
           </NavButton>
 
-          <NavButton href="https://github.com/MC2-Universe/universe">
+          <NavButton href="https://github.com/MC2-Universe/kindness.id">
             <Code weight="bold" />
             Code
           </NavButton>

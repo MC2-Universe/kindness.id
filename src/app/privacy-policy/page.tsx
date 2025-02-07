@@ -23,9 +23,9 @@ const Page = (): JSX.Element => (
 
     <LayoutMain className="prose flex max-w-screen-md flex-col prose-headings:font-display prose-headings:text-foreground prose-li:text-foreground text-foreground marker:text-foreground">
       <section>
-        <h2>Welcome to Guild.xyz!</h2>
+        <h2>Welcome to Kindness.id!</h2>
         <p>
-          Guild.xyz is an online platform for automated membership management of
+          Kindness.id is an online platform for automated membership management of
           communities based on blockchain. This notice summarizes how we collect, use
           and safeguard the information you provide to us and what choices you have
           with respect to your privacy.
@@ -37,7 +37,7 @@ const Page = (): JSX.Element => (
           26787015-2-06) ("Us") and its relevant Affiliates (as specified below) in
           relation to our Services and our Website available at{" "}
           <Anchor href="/" variant="highlighted">
-            https://guild.xyz/
+            https://kindness.id/
           </Anchor>
           .
         </p>
@@ -466,10 +466,11 @@ const Page = (): JSX.Element => (
       <section>
         <h2>Who is responsible for the processing of your data?</h2>
         <p>
-          Guild.xyz services are provided by Z Gen Kibernetika Korlátolt Felelősségű
-          Társaság (registered seat: 6720 Szeged, Kelemen László utca 11., company
-          registration number: Cg.06-09-025397, tax number: 26787015-2-06) and it
-          acts as a data controller with respect to the processing of your data.
+          Kindness.id services are provided by Z Gen Kibernetika Korlátolt
+          Felelősségű Társaság (registered seat: 6720 Szeged, Kelemen László utca
+          11., company registration number: Cg.06-09-025397, tax number:
+          26787015-2-06) and it acts as a data controller with respect to the
+          processing of your data.
         </p>
         <p>
           Where you decide that you would like to share data with a Guild, then they
@@ -489,8 +490,8 @@ const Page = (): JSX.Element => (
           anyone under the age of 18 without the consent of a parent or guardian, we
           will delete that information as soon as possible. If you believe we have
           collected such information, please contact us at{" "}
-          <Anchor href="mailto:help@guild.xyz" variant="highlighted">
-            help@guild.xyz
+          <Anchor href="mailto:help@kindness.id" variant="highlighted">
+            help@kindness.id
           </Anchor>
         </p>
       </section>
@@ -514,8 +515,8 @@ const Page = (): JSX.Element => (
         <p>
           If you have any further questions in relation to the processing of your
           data, please contact{" "}
-          <Anchor href="mailto:help@guild.xyz" variant="highlighted">
-            help@guild.xyz
+          <Anchor href="mailto:help@kindness.id" variant="highlighted">
+            help@kindness.id
           </Anchor>
           .
         </p>

@@ -57,7 +57,7 @@ const useJoin = ({ onSuccess, onError }: UseSubmitOptions<JoinJob>) => {
           toastWithShareButtons({
             title: "Successfully joined guild",
             shareText: `Just joined the ${guild.name} guild. Continuing my brave quest to explore all corners of web3!
-      guild.xyz/${guild.urlName}`,
+      kindness.id/${guild.urlName}`,
           })
         }
 

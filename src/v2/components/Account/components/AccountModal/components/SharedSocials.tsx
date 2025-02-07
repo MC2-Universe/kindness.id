@@ -86,7 +86,7 @@ const SharedSocials = () => {
           <p>
             Choose which guilds you'd like to share your profile with.{" "}
             <a
-              href="https://help.guild.xyz/en/articles/8489031-privacy-for-members"
+              href="https://help.kindness.id/en/articles/8489031-privacy-for-members"
               className={anchorVariants({
                 variant: "muted",
                 className: "font-semibold",

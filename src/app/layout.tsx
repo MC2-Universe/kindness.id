@@ -15,12 +15,12 @@ interface RootLayoutProps {
 }
 
 export const metadata: Metadata = {
-  title: "Unite Kindness",
-  applicationName: "Unite Kindness",
+  title: "Kindness Passport",
+  applicationName: "kindness.id",
   description:
-    "Automated membership management for the platforms your community already uses.",
+    "Earn trust and rewards by sharing your kindness identity with the world",
   icons: {
-    icon: "/kindness-icon.png",
+    icon: "/upi.png",
   },
 }
 

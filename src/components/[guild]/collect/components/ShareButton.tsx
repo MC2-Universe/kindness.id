@@ -20,7 +20,7 @@ type Props = {
 const ShareButton = ({ onClick, shareText }: Props): JSX.Element => {
   const pageLink =
     typeof window !== "undefined"
-      ? `https://guild.xyz${window.location.pathname}`
+      ? `https://kindness.id${window.location.pathname}`
       : ""
   const { onCopy, hasCopied } = useClipboard(pageLink)
 

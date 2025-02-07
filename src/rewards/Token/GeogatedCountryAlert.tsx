@@ -77,7 +77,7 @@ export const GeogatedCountryPopover = ({ children, isDisabled }) => {
           <PopoverBody pt="0">
             {`Sorry, but this feature is currently `}
             <Link
-              href="https://help.guild.xyz/en/articles/9246601-restricted-countries"
+              href="https://help.kindness.id/en/articles/9246601-restricted-countries"
               isExternal
               display="inline"
               colorScheme="blue"

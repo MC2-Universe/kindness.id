@@ -59,7 +59,7 @@ const TokenReward = ({ rolePlatform }: { rolePlatform: RolePlatform }) => {
         tooltipLabel: (
           <>
             <Icon as={LockSimple} display="inline" mb="-2px" mr="1" />
-            Join world to check access
+            Join quest to check access
           </>
         ),
         ButtonComponent: Button,

@@ -31,7 +31,7 @@ const nextConfig = {
         new BugsnagSourceMapUploaderPlugin({
           apiKey: process.env.NEXT_PUBLIC_BUGSNAG_KEY ?? "",
           overwrite: true,
-          publicPath: `https://${process.env.VERCEL_URL ?? "guild.xyz"}/_next/`,
+          publicPath: `https://${process.env.DEPLOY_URL ?? "guild.xyz"}/_next/`,
         })
       )
     }
@@ -53,6 +53,9 @@ const nextConfig = {
       },
       {
         hostname: "guild-xyz.mypinata.cloud",
+      },
+      {
+        hostname: "kindness.mypinata.cloud",
       },
       {
         hostname: "assets.poap.xyz",

@@ -122,7 +122,7 @@ const useMintFuelGuildPin = () => {
 
     toastWithShareButtons({
       title: "Successfully minted Kindness Badge!",
-      shareText: `Just minted my Kindness Badge for joining ${name}!\nguild.xyz/${urlName}`,
+      shareText: `Just minted my Kindness Badge for joining ${name}!\nkindness.id/${urlName}`,
     })
   }
 

@@ -54,7 +54,7 @@ const VisitLinkForm = ({ baseFieldPath }: RequirementFormProps) => {
       <FormLabel>Link user has to go to</FormLabel>
       <Input
         {...field}
-        placeholder="https://guild.xyz"
+        placeholder="https://kindness.id"
         onChange={(e) => {
           const position = e.target.selectionStart
           try {

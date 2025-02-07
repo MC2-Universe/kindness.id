@@ -60,7 +60,7 @@ const Reward = ({ role, platform, withLink, isLinkColorful }: RewardProps) => {
         tooltipLabel: (
           <>
             <Icon as={LockSimple} display="inline" mb="-2px" mr="1" />
-            Join world to check access
+            Join quest to check access
           </>
         ),
         buttonProps: { onClick: openJoinModal },

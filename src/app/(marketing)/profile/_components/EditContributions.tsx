@@ -73,7 +73,7 @@ const EditContributionCard = ({
           }}
         >
           <SelectTrigger>
-            <SelectValue placeholder="Select from your worlds of kindness" />
+            <SelectValue placeholder="Select from your quests of kindness" />
           </SelectTrigger>
           <SelectContent>
             {roleIds?.map((roleId) => (
@@ -151,7 +151,7 @@ export const EditContributions = () => {
                   value={guildId}
                 >
                   <SelectTrigger>
-                    <SelectValue placeholder="Select from your worlds of kindness" />
+                    <SelectValue placeholder="Select from your quests of kindness" />
                   </SelectTrigger>
                   <SelectContent>
                     {guilds?.map((data) => (

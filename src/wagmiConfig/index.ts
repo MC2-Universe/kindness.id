@@ -281,8 +281,8 @@ export const wagmiConfig = IS_TEST
       connectors: [
         injected(),
         coinbaseWallet({
-          appName: "Guild.xyz",
-          appLogoUrl: "https://guild.xyz/kindness-icon.png",
+          appName: "Kindness.id",
+          appLogoUrl: "https://kindness.id/upi.png",
           version: "4",
         }),
         walletConnect({

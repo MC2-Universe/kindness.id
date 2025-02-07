@@ -196,7 +196,7 @@ const GuildPageWrapper = ({ fallback }: Props): JSX.Element => {
         <meta property="og:title" content={Object.values(fallback)[0].name} />
         <link
           rel="shortcut icon"
-          href={Object.values(fallback)[0].imageUrl ?? "/kindness-icon.png"}
+          href={Object.values(fallback)[0].imageUrl ?? "/upi.png"}
         />
         <meta name="description" content={Object.values(fallback)[0].description} />
         <meta

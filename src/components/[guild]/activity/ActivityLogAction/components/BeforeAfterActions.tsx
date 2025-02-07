@@ -142,14 +142,14 @@ const BeforeAfterActions = (): JSX.Element => {
                 as="span"
                 color="blue.400"
                 fontWeight="semibold"
-              >{`guild.xyz/${before.urlName}`}</Text>
+              >{`kindness.id/${before.urlName}`}</Text>
             }
             after={
               <Text
                 as="span"
                 color="blue.400"
                 fontWeight="semibold"
-              >{`guild.xyz/${data.urlName}`}</Text>
+              >{`kindness.id/${data.urlName}`}</Text>
             }
           />
         </ActivityLogChildActionLayout>

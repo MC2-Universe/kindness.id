@@ -43,7 +43,7 @@ const handler = async (req, _) => {
   if (!guild?.id)
     return new Response(undefined, {
       status: 404,
-      statusText: "Guild not found",
+      statusText: "Kindness not found there yet",
     })
 
   const page = pages?.find((p) => p.urlName === pageUrlName)

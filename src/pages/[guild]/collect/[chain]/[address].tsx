@@ -298,8 +298,8 @@ const getStaticProps = async ({ params }) => {
 
   // Calling the serverless endpoint, so if we fetch this data for the first time, it'll be added to the Vercel cache
 
-  const baseUrl = process.env.VERCEL_URL
-    ? `https://${process.env.VERCEL_URL}`
+  const baseUrl = process.env.DEPLOY_URL
+    ? `https://${process.env.DEPLOY_URL}`
     : "http://localhost:3000"
   const nftDetails = await fetch(`${baseUrl}/api/nft/${chain}/${address}`)
     .then((res) => res.json())

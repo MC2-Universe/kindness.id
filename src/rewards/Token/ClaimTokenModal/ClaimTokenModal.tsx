@@ -177,7 +177,7 @@ const ClaimTokenModal = ({ isOpen, onClose }: Props) => {
             <Text colorScheme="gray" mt="-5px">
               {`I confirm that I am not a citizen of the U.S., Canada, or any other `}
               <Link
-                href="https://help.guild.xyz/en/articles/9246601-restricted-countries"
+                href="https://help.kindness.id/en/articles/9246601-restricted-countries"
                 isExternal
                 fontWeight={"semibold"}
                 onClick={(e) => e.stopPropagation()}

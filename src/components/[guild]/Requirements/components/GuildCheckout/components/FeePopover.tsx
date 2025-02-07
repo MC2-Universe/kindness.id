@@ -20,7 +20,7 @@ const FeePopover = () => (
         {`Learn more about `}
         <Link
           isExternal
-          href="https://help.guild.xyz/en/articles/8193498-guild-base-fee"
+          href="https://help.kindness.id/en/articles/8193498-guild-base-fee"
         >
           Guild base fee <Icon as={ArrowSquareOut} ml={1} />
         </Link>

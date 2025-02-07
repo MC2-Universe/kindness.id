@@ -13,7 +13,7 @@ const getTimestamp = () => {
 }
 
 const LinkPreviewHead = ({ path }: Props) => {
-  const url = `https://guild.xyz/api/linkpreview/${getTimestamp()}/${path}`
+  const url = `https://kindness.id/api/linkpreview/${getTimestamp()}/${path}`
 
   return (
     <Head>

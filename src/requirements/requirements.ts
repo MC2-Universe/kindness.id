@@ -12,7 +12,7 @@ import { VISIT_LINK_REGEX } from "requirements/VisitLink/VisitLinkRequirement"
 import { emailData } from "rewards/Email/data"
 import { formData } from "rewards/Forms/data"
 import Star from "static/icons/star.svg"
-import GuildLogo from "static/kindness-icon.svg"
+import GuildLogo from "static/upi.svg"
 import { RequirementData } from "./types"
 
 export const REQUIREMENTS_DATA = [

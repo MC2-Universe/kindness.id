@@ -53,7 +53,7 @@ const MaintenanceBanner = ({
 
   return (
     <InfoBanner onClose={() => setIsBannerClosed(true)}>
-      {`Guild.xyz will be temporarily unavailable on ${maintenanceDate}
+      {`Kindness.id will be temporarily unavailable on ${maintenanceDate}
           between ${maintenanceStart} and ${maintenanceEnd} (CET) due to scheduled
           maintenance.`}
     </InfoBanner>

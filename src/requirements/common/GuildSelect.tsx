@@ -18,7 +18,7 @@ import useGuilds from "../Guild/hooks/useGuilds"
 
 const customFilterOption = (candidate, input) =>
   candidate.label.toLowerCase().includes(input?.toLowerCase()) ||
-  candidate.data?.details?.includes(input?.replace("https://guild.xyz/", ""))
+  candidate.data?.details?.includes(input?.replace("https://kindness.id/", ""))
 
 const convertGuildToOption = (guild: Guild) => ({
   img: guild.imageUrl,
@@ -45,8 +45,10 @@ const GuildSelect = ({ baseFieldPath }) => {
   const guildId = useWatch({ name: `${baseFieldPath}.data.guildId` })
   const { isLoading: isSelectedGuildLoading, ...selectedGuild } = useGuild(
     searchValue &&
-      debouncedSearchValue?.replace("https://guild.xyz/", "").match(GUILD_URL_REGEX)
-      ? debouncedSearchValue.replace("https://guild.xyz/", "")
+      debouncedSearchValue
+        ?.replace("https://kindness.id/", "")
+        .match(GUILD_URL_REGEX)
+      ? debouncedSearchValue.replace("https://kindness.id/", "")
       : guildId
   )
 

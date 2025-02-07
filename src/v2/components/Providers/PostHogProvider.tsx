@@ -38,7 +38,7 @@ if (typeof window !== "undefined") {
     loaded: (ph) => {
       if (
         process.env.NODE_ENV !== "production" ||
-        window.location.host !== "guild.xyz"
+        window.location.host !== "kindness.id"
       )
         ph.opt_out_capturing()
     },

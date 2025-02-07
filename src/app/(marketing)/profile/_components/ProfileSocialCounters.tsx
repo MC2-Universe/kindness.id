@@ -39,7 +39,7 @@ export const ProfileSocialCounters = ({ className }: any) => {
 
   const inviteLink =
     profile &&
-    `https://guild.xyz/create-profile/prompt-referrer?${REFERRER_USER_SEARCH_PARAM_KEY}=${profile.username}`
+    `https://kindness.id/create-profile/prompt-referrer?${REFERRER_USER_SEARCH_PARAM_KEY}=${profile.username}`
 
   return (
     <div

@@ -87,7 +87,7 @@ const Layout = ({
       <Head>
         <title>{`${ogTitle ?? title}`}</title>
         <meta property="og:title" content={`${ogTitle ?? title}`} />
-        <link rel="shortcut icon" href={imageUrl ?? "/kindness-icon.png"} />
+        <link rel="shortcut icon" href={imageUrl ?? "/upi.png"} />
         {ogDescription && (
           <>
             <meta name="description" content={ogDescription} />

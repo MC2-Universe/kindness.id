@@ -128,7 +128,7 @@ const useCollectToken = (
         setLoadingText("")
         toastWithShareButtons({
           title: "Successfully claimed your tokens!",
-          shareText: `Just collected my tokens in the ${name} guild!\nguild.xyz/${urlName}`,
+          shareText: `Just collected my tokens in the ${name} guild!\nkindness.id/${urlName}`,
         })
 
         captureEvent("Successful token claiming", {

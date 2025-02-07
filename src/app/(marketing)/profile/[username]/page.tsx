@@ -27,7 +27,7 @@ export const generateMetadata = async ({ params: { username } }: PageProps) => {
     fetchFallback: false,
   })
   return {
-    title: `${profile.name || profile.username} (@${profile.username}) | Unite Kindness`,
+    title: `${profile.name || profile.username} (@${profile.username}) | kindness.id`,
     description: profile.bio,
     openGraph: {
       images: [profile.profileImageUrl, profile.backgroundImageUrl].filter(

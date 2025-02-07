@@ -13,7 +13,7 @@ class MyDocument extends Document {
                 defer
                 src="/js/script.js"
                 data-api="/api/event"
-                data-domain="guild.xyz"
+                data-domain="kindness.id"
                 integrity="sha512-HVRUd9pld7dyE4GD9bua0YojsAokMtFExYGvwJhJ5zq37EEX7yEOeYEsh0yh/CypC832F1VkewDepCdoDlPwEw=="
                 data-exclude="/oauth**"
               />

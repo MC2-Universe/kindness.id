@@ -25,7 +25,7 @@ const UrlName = () => {
     <FormControl isInvalid={!!errors?.urlName} isRequired>
       <FormLabel>URL name</FormLabel>
       <InputGroup size="lg">
-        <InputLeftAddon>guild.xyz/</InputLeftAddon>
+        <InputLeftAddon>kindness.id/</InputLeftAddon>
         <Input
           {...register("urlName", {
             required: "This field is required",

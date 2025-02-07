@@ -13,7 +13,7 @@ export const SUBSCRIPTIONS = [
     title: "Single Pass",
     pricing: "$6 / month",
     pricingShort: "$6 / month",
-    description: "For the curious, who want to try Unite Kindness’s new features",
+    description: "For the curious, who want to try kindness.id’s new features",
   },
   {
     title: "Bundle Pass",
@@ -27,7 +27,7 @@ export const SUBSCRIPTIONS = [
     pricing: "0.1 ETH one time",
     pricingShort: "0.1 ETH",
     description:
-      "For our biggest supporters, who are excited for the future of Unite Kindness",
+      "For our biggest supporters, who are excited for the future of kindness.id",
   },
 ] as const satisfies {
   title: string
@@ -50,15 +50,14 @@ export const BENEFITS = [
     image: bustInSilhouette,
   },
   {
-    title: "Get early access to Unite Kindness features",
+    title: "Get early access to kindness.id features",
     description: "Be the first to unlock and experience our newest features",
     isAvailable: true,
     image: unlocked,
   },
   {
     title: "Priority support",
-    description:
-      "Get help within hours — even our CEO is answering priority tickets",
+    description: "Get help within hours when launching kindness campaigns",
     isAvailable: true,
     image: speechBalloon,
   },
@@ -79,7 +78,7 @@ export const BENEFITS = [
   {
     title: "Be part of Gold community",
     description:
-      "Shape Unite Kindness's future — your ideas drive what we build and when we build it",
+      "Shape kindness.id's future — your ideas drive what we build and when we build it",
     isAvailable: false,
     image: peopleWithBunnyEars,
   },

@@ -22,7 +22,7 @@ export const YourGuilds = () => {
         <div className="flex items-center gap-4">
           {isWeb3Connected ? (
             <span>
-              You're not a member of any worlds of kindness yet. Explore and join
+              You're not a member of any quests of kindness yet. Explore and join
               some below, or create your own!
             </span>
           ) : (
@@ -34,7 +34,7 @@ export const YourGuilds = () => {
                 alt="Guild Robot icon"
                 className="size-8 min-w-8"
               />
-              <span>Sign in to view your worlds of kindness / create new ones</span>
+              <span>Sign in to view your quests of kindness / create new ones</span>
             </>
           )}
         </div>
@@ -45,7 +45,7 @@ export const YourGuilds = () => {
             className={buttonVariants({ className: "hover:no-underline" })}
           >
             <Plus weight="bold" />
-            <span>Create world of kindness</span>
+            <span>Create quest of kindness</span>
           </Anchor>
         ) : (
           <Button
