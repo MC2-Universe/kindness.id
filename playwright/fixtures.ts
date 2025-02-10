@@ -58,7 +58,7 @@ export const test = base.extend<Fixtures>({
         )
 
         const idb = await new Promise<IDBDatabase>((resolve, reject) => {
-          const request = indexedDB.open("guild.xyz")
+          const request = indexedDB.open("kindness.id")
 
           request.onupgradeneeded = () => {
             request.result.createObjectStore("signingKeyPairs")

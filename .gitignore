@@ -42,3 +42,5 @@ bun.lockb
 /playwright/.cache/
 /playwright/.auth/
 /playwright/results
+
+security.txt

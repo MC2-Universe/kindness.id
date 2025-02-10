@@ -67,6 +67,9 @@ const nextConfig = {
         hostname: "abs.twimg.com",
       },
       {
+        hostname: "kindness.id",
+      },
+      {
         hostname: "guild.xyz",
       },
       {

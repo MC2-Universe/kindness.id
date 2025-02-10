@@ -26,7 +26,7 @@ function getSiweMessage({
   return `kindness.id wants you to sign in with your Ethereum account:
 ${checksumAddress(addr as `0x${string}`)}
 
-Sign in kindness.id
+Sign in Kindness.id
 
 URI: https://kindness.id
 Version: 1
@@ -107,7 +107,7 @@ const useSetKeyPair = (submitOptions?: UseSubmitOptions) => {
         !recaptcha.ref || !!captchaVerifiedSince
           ? undefined
           : await recaptcha.ref.executeAsync()
-
+      console.log("reCaptchaToken", reCaptchaToken)
       const generatedKeys = await generateKeyPair().catch((err) => {
         if (err?.code !== 4001) {
           captureEvent(`Keypair generation error`, {
