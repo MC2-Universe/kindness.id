@@ -90,7 +90,7 @@ const Admins = () => {
           <FormLabel>
             Admins{" "}
             {!isOwner && !isSuperAdmin && (
-              <Tag>only editable by the Guild owner</Tag>
+              <Tag>only editable by the Collab owner</Tag>
             )}
           </FormLabel>
           {isOwner || isSuperAdmin ? <TransferOwnership /> : null}

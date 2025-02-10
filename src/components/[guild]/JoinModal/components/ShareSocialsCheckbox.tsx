@@ -23,7 +23,7 @@ const ShareSocialsCheckbox = (): JSX.Element => {
           </FormControl>
 
           <FormLabel className="-top-1 relative text-muted-foreground text-sm">
-            {`I agree to share my Universal Profile with this Kindness Quest, so they can potentially
+            {`I agree to share my Universal Profile with this Collab of Kindness, so they can potentially
         reward me for my engagement in the community. `}
             <Anchor
               href="https://help.kindness.id/en/articles/8489031-privacy-for-members"

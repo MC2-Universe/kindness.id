@@ -109,7 +109,7 @@ const IconSelector = ({
             <Icon as={Image} boxSize="35%" />
           )
         }
-        aria-label="Guild logo"
+        aria-label="Collab logo"
         variant="outline"
         borderWidth={1}
         {...(field.value || colorMode === "dark"

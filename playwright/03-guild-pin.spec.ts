@@ -2,7 +2,7 @@ import { expect } from "@playwright/test"
 import { GUILD_CHECKOUT_TEST_GUILD_URL_NAME } from "./constants"
 import { test } from "./fixtures"
 
-test("can mint guild pin", async ({ pageWithKeyPair: { page } }) => {
+test("can mint collab pin", async ({ pageWithKeyPair: { page } }) => {
   await page.goto(GUILD_CHECKOUT_TEST_GUILD_URL_NAME)
 
   await page.waitForResponse("**/v2/users/*/memberships?guildId=*", {
@@ -13,7 +13,7 @@ test("can mint guild pin", async ({ pageWithKeyPair: { page } }) => {
   await mintGuildPinButton.click()
 
   const mintGuildPinDialog = await page.getByRole("dialog", {
-    name: "Mint Guild Pin",
+    name: "Mint Kindness Badge",
   })
   await expect(mintGuildPinDialog).toBeVisible()
 
@@ -26,7 +26,7 @@ test("can mint guild pin", async ({ pageWithKeyPair: { page } }) => {
 
   await page.waitForResponse("**/v2/guilds/*/pin")
 
-  const successToast = await page.getByText("Successfully minted Guild Pin!", {
+  const successToast = await page.getByText("Successfully minted Kindness Badge!", {
     exact: true,
   })
   await expect(successToast).toBeVisible({ timeout: 30_000 })

@@ -40,7 +40,7 @@ const SuccessfullySubmittedForm = () => {
           colorScheme="green"
           rightIcon={<ArrowRight />}
         >
-          Go back to guild page
+          Go back to collab page
         </Button>
       </VStack>
     </Card>

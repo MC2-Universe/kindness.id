@@ -49,7 +49,7 @@ const AllowanceButton = ({ chain, token, contract }: Props) => {
         leftIcon={allowanceError ? <Icon as={Warning} /> : null}
         rightIcon={
           <Tooltip
-            label={`You have to give the Guild smart contracts permission to use your ${tokenName}. You only have to do this once per token.`}
+            label={`You have to give the Collab smart contracts permission to use your ${tokenName}. You only have to do this once per token.`}
           >
             <Icon as={Question} />
           </Tooltip>
@@ -57,7 +57,7 @@ const AllowanceButton = ({ chain, token, contract }: Props) => {
       >
         {allowanceError
           ? "Couldn't fetch allowance"
-          : `Allow Guild to use your ${tokenSymbol}`}
+          : `Allow Collab to use your ${tokenSymbol}`}
       </Button>
     </Collapse>
   )

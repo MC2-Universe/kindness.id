@@ -68,7 +68,7 @@ const SecretTextReward = ({ platform }: RewardProps) => {
         tooltipLabel: (
           <>
             <Icon as={LockSimple} display="inline" mb="-2px" mr="1" />
-            Join quest to check access
+            Join collab to check access
           </>
         ),
         buttonProps: { onClick: openJoinModal },

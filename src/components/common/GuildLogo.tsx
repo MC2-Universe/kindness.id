@@ -30,12 +30,12 @@ const GuildLogo = memo(
       >
         {imageUrl &&
           (imageUrl?.match("guildLogos") ? (
-            <Img src={imageUrl} alt="Guild logo" boxSize="40%" />
+            <Img src={imageUrl} alt="Collab logo" boxSize="40%" />
           ) : (
             <Image
               src={imageUrl}
               quality={imageQuality}
-              alt="Guild logo"
+              alt="Collab logo"
               priority={priority}
               fill
               sizes={typeof size === "string" ? size : Object.values(size).at(-1)}

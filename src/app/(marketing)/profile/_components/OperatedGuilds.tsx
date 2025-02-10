@@ -32,7 +32,7 @@ export const OperatedGuild = ({ guildBase }: { guildBase: GuildBase }) => {
           <Image
             className="absolute inset-0 size-full object-cover opacity-30"
             src={guild.theme.backgroundImage}
-            alt="guild banner"
+            alt="collab banner"
             width={419}
             height={233}
           />
@@ -50,7 +50,7 @@ export const OperatedGuild = ({ guildBase }: { guildBase: GuildBase }) => {
               src={guildBase.imageUrl}
               width={118}
               height={118}
-              alt="guild image"
+              alt="collab image"
             />
             <AvatarFallback>
               <Skeleton className="size-full" />

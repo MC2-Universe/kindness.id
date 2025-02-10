@@ -180,7 +180,7 @@ const GuildPageWrapper = ({ fallback }: Props): JSX.Element => {
         <Center h="100vh" w="screen">
           <Spinner />
           <Heading fontFamily={"display"} size="md" ml="4" mb="1">
-            Loading guild...
+            Loading collab...
           </Heading>
         </Center>
       )

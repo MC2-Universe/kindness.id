@@ -32,7 +32,7 @@ const useStayConnectedToast = () => {
       description:
         "To keep our services smooth, we occasionally need to reach out. Please add your contact info for timely updates and support!",
       buttonProps: {
-        children: "Open guild settings",
+        children: "Open collab settings",
         onClick: () => router.push(`/${urlName}/dashboard`),
         rightIcon: <ArrowRight />,
       },

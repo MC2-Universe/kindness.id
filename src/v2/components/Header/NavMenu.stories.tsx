@@ -4,7 +4,7 @@ import { ThemeProvider } from "next-themes"
 import { NavMenu } from "./NavMenu"
 
 const meta: Meta<typeof NavMenu> = {
-  title: "Guild UI/NavMenu",
+  title: "Kindness UI/NavMenu",
   component: NavMenu,
   decorators: [
     (Story) => (

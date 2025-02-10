@@ -40,7 +40,7 @@ const UrlName = () => {
             checkUrlName(event.target.value).then((alreadyExists) => {
               if (alreadyExists && currentUrlName !== event.target.value) {
                 setError("urlName", {
-                  message: "Sorry, this guild name is already taken",
+                  message: "Sorry, this collab name is already taken",
                 })
               } else {
                 clearErrors("urlName")

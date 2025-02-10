@@ -34,7 +34,7 @@ export const REQUIREMENT_PROVIDED_VALUES: Partial<
     () => import("requirements/Nft/providedValue/NftAmountProvidedValue")
   ),
 
-  GUILD_MINGUILDS: () => "Guild membership count",
+  GUILD_MINGUILDS: () => "Collab membership count",
 
   COVALENT_TX_COUNT: dynamic<ProvidedValueDisplayProps>(
     () => import("requirements/WalletActivity/providedValue/TxCountProvidedValue")

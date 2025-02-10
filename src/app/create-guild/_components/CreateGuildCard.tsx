@@ -21,7 +21,7 @@ const CreateGuildCard = () => {
   return (
     <Card className="flex flex-col px-5 py-6 shadow-lg md:px-6">
       <h2 className="mb-7 text-center font-display font-extrabold text-2xl">
-        Start your kindness
+        Create your kindness
       </h2>
 
       <CreateGuildImageUploader />

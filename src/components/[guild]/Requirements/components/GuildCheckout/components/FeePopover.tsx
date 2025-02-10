@@ -22,7 +22,7 @@ const FeePopover = () => (
           isExternal
           href="https://help.kindness.id/en/articles/8193498-guild-base-fee"
         >
-          Guild base fee <Icon as={ArrowSquareOut} ml={1} />
+          Collab base fee <Icon as={ArrowSquareOut} ml={1} />
         </Link>
       </PopoverBody>
     </PopoverContent>

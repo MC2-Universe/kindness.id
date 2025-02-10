@@ -44,7 +44,7 @@ export const ContributionCollection = ({
             <Avatar size="lg" className="-ml-3 border-2 border-card">
               <AvatarImage
                 src={pin.href}
-                alt="guild pin"
+                alt="Kindness Badge"
                 width={32}
                 height={32}
                 unoptimized
@@ -57,7 +57,7 @@ export const ContributionCollection = ({
               <Image
                 src={pin.href}
                 className="absolute size-full translate-y-1/2 rotate-180 scale-x-90 scale-y-125 blur-3xl saturate-150"
-                alt="guild pin"
+                alt="Kindness Badge"
                 width={32}
                 height={32}
                 unoptimized
@@ -69,7 +69,7 @@ export const ContributionCollection = ({
               >
                 <AvatarImage
                   src={pin.href}
-                  alt="guild pin"
+                  alt="Kindness Badge"
                   width={192}
                   height={192}
                   unoptimized

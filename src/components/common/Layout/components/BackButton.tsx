@@ -24,7 +24,7 @@ const BackButton = ({ href, children }: PropsWithChildren<Props>) => {
       leftIcon={<ArrowLeft />}
       alignSelf="flex-start"
     >
-      {children ?? "Back to guild page"}
+      {children ?? "Back to collab page"}
     </Button>
   )
 }

@@ -6,9 +6,9 @@ import type { Metadata } from "next"
 import { PropsWithChildren, Suspense } from "react"
 
 export const metadata: Metadata = {
-  title: "Create profile",
+  title: "Create Kindness profile",
   description:
-    "Start your new profile adventure by signing in: earn experience, display achievements and explore new rewards!",
+    "Start your new Kindness profile adventure by signing in: earn experience, display achievements and explore new rewards!",
 }
 
 const CreateProfile = ({ children }: PropsWithChildren) => {

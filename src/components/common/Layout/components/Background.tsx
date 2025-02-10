@@ -22,7 +22,7 @@ const Background = ({ image, offset = 128, ...boxProps }: Props) => {
       {image ? (
         <Image
           src={image}
-          alt="Guild background image"
+          alt="Collab background image"
           priority
           fill
           sizes="100vw"

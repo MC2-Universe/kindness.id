@@ -22,7 +22,7 @@ export const YourGuilds = () => {
         <div className="flex items-center gap-4">
           {isWeb3Connected ? (
             <span>
-              You're not a member of any quests of kindness yet. Explore and join
+              You're not a member of any collabs of kindness yet. Explore and join
               some below, or create your own!
             </span>
           ) : (
@@ -31,10 +31,10 @@ export const YourGuilds = () => {
                 src="/landing/robot.svg"
                 width={32}
                 height={32}
-                alt="Guild Robot icon"
+                alt="Collab Robot icon"
                 className="size-8 min-w-8"
               />
-              <span>Sign in to view your quests of kindness / create new ones</span>
+              <span>Sign in to create and use your Kindness Profile</span>
             </>
           )}
         </div>
@@ -45,7 +45,7 @@ export const YourGuilds = () => {
             className={buttonVariants({ className: "hover:no-underline" })}
           >
             <Plus weight="bold" />
-            <span>Create quest of kindness</span>
+            <span>Create collab of kindness</span>
           </Anchor>
         ) : (
           <Button

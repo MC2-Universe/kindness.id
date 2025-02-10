@@ -2,14 +2,13 @@ import { Anchor } from "@/components/ui/Anchor"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/Avatar"
 import { Card } from "@/components/ui/Card"
 import { cn } from "@/lib/utils"
-import { Guild } from "@guildxyz/types"
 import Color from "color"
 import { PropsWithChildren } from "react"
 
 export const CardWithGuildLabel = ({
   guild,
   children,
-}: PropsWithChildren<{ guild: Guild }>) => {
+}: PropsWithChildren<{ guild }>) => {
   const color = guild.theme.color && Color(guild.theme.color)
 
   return (
@@ -26,7 +25,7 @@ export const CardWithGuildLabel = ({
           <Avatar size="xs">
             <AvatarImage
               src={guild.imageUrl}
-              alt="guild avatar"
+              alt="collab avatar"
               width={32}
               height={32}
             />

@@ -33,7 +33,7 @@ const TxSuccess = ({
           {successText ??
             (isMember
               ? "Transaction successful! Your access is being rechecked."
-              : "Transaction successful! Join the Guild now to get access")}
+              : "Transaction successful! Join the Collab now to get access")}
         </p>
 
         {successLinkComponent ?? <TransactionLink />}
@@ -56,7 +56,7 @@ const TxSuccess = ({
             className="w-full"
             onClick={openJoinModal}
           >
-            Join quest
+            Join collab
           </Button>
         )}
       </DialogFooter>

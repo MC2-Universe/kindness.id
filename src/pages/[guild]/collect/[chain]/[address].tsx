@@ -125,7 +125,7 @@ const CollectNftPageContent = ({
               shareButtonLocalStorageKey={`${chain}_${address}_hasClickedShareButton`}
               shareText={`Check out and collect this awesome ${
                 name ? `${name} ` : " "
-              }NFT on Guild!`}
+              }NFT on Kindness.id!`}
             />
 
             {isNFTCreator && <DynamicEditNFTButton />}

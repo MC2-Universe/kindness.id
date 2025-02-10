@@ -13,6 +13,12 @@ import useSWRInfinite from "swr/infinite"
 import { GuildBase, SearchParams } from "types"
 
 const BATCH_SIZE = 24
+const FIXED_SEARCH = env.NEXT_PUBLIC_FIXED_EXPLORE === "true" // @universe: SET THIS
+const FIXED_ID = env.NEXT_PUBLIC_FIXED_ID || "unite-kindness" // @universe: SET THIS
+const SEARCH_TERM = env.NEXT_PUBLIC_SEARCH_ID || "demo" // @universe: SET THIS
+const SEARCH_URL = FIXED_SEARCH
+  ? `/v2/guilds/guild-page/${FIXED_ID}`
+  : `/v2/guilds?search=${SEARCH_TERM}`
 
 const GuildCardMemo = memo(GuildCardWithLink)
 
@@ -37,7 +43,7 @@ const useExploreGuilds = (searchParams?: SearchParams) => {
     (pageIndex, previousPageData) => {
       if (Array.isArray(previousPageData) && previousPageData.length !== BATCH_SIZE)
         return null
-      const url = new URL("/v2/guilds?search=demo", env.NEXT_PUBLIC_API)
+      const url = new URL(SEARCH_URL, env.NEXT_PUBLIC_API)
       const params: Record<string, string> = {
         order: "FEATURED",
         ...searchParams,

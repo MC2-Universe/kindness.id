@@ -44,7 +44,7 @@ const useJoin = ({ onSuccess, onError }: UseSubmitOptions<JoinJob>) => {
           toast({
             variant: "success",
 
-            title: "Successfully joined guild",
+            title: "Successfully joined collab",
             description: "Let others know as well by minting it onchain",
             action: (
               <ToastAction altText="Try again" onClick={onOpen}>
@@ -55,8 +55,8 @@ const useJoin = ({ onSuccess, onError }: UseSubmitOptions<JoinJob>) => {
           })
         } else {
           toastWithShareButtons({
-            title: "Successfully joined guild",
-            shareText: `Just joined the ${guild.name} guild. Continuing my brave quest to explore all corners of web3!
+            title: "Successfully joined kindness collab",
+            shareText: `Just joined the ${guild.name} collab of kindness. Continuing my effort to explore all corners of kindness!
       kindness.id/${guild.urlName}`,
           })
         }

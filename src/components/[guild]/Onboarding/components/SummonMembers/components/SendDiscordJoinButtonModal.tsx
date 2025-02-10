@@ -51,8 +51,8 @@ const SendDiscordJoinButtonModal = ({
     mode: "onSubmit",
     defaultValues: {
       title: "Verify your wallet",
-      description: description || "Join this guild and get your role(s)!",
-      button: `Join ${name ?? "Guild"}`,
+      description: description || "Join this collab and get your role(s)!",
+      button: `Join ${name ?? "Collab"}`,
       channelId: "0",
       serverId,
     },
@@ -72,7 +72,7 @@ const SendDiscordJoinButtonModal = ({
         <ModalBody>
           <Text mb="8">
             The bot will send a join button as an entry point for Discord users to
-            join your quest. Feel free to customize it below!
+            join your collab. Feel free to customize it below!
           </Text>
 
           <FormProvider {...methods}>
@@ -102,7 +102,9 @@ const SendDiscordJoinButtonModal = ({
           <Button
             colorScheme="green"
             onClick={() => {
-              captureEvent("guild creation flow > Send Discord join button was sent")
+              captureEvent(
+                "kindness collab creation flow > Send Discord join button was sent"
+              )
               methods.handleSubmit(onSubmit)()
             }}
             isLoading={isLoading}

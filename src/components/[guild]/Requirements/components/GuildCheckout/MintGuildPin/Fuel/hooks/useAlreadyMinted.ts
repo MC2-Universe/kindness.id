@@ -13,7 +13,7 @@ const useAlreadyMinted = () => {
 
   const getAlreadyMinted = async () => {
     // Won't happen, just trying to make TS happy here
-    if (!guildId) throw new Error("Invalid guild ID")
+    if (!guildId) throw new Error("Invalid collab ID")
     if (!wallet) throw new Error("Couldn't find Fuel wallet")
 
     const contractInstance = new Contract(FUEL_GUILD_PIN_CONTRACT_ID_0X, abi, wallet)

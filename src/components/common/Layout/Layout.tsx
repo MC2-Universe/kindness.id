@@ -123,7 +123,7 @@ const Layout = ({
             {backgroundImage ? (
               <Image
                 src={backgroundImage}
-                alt="Guild background image"
+                alt="Collab background image"
                 priority
                 fill
                 sizes="100vw"

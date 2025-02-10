@@ -122,35 +122,36 @@ const Page = (): JSX.Element => (
         <h3>3. Community management</h3>
         <ol>
           <li>
-            <strong>Guilds</strong>: For membership management purposes, the Services
-            may enable you to create or join a &quot;Guild&quot;. Once you create a
-            Guild, you will become the &quot;Guild Admin&quot;, with control over the
-            membership structure of the Guild, including the customization of Roles,
-            Requirements and Rewards (as defined below).
+            <strong>Collabs</strong>: For membership management purposes, the
+            Services may enable you to create or join a &quot;Collab&quot;. Once you
+            create a Collab, you will become the &quot;Collab Admin&quot;, with
+            control over the membership structure of the Collab, including the
+            customization of Roles, Requirements and Rewards (as defined below).
           </li>
           <li>
-            <strong>Roles, Requirements and Rewards</strong>: Guild Admins may freely
-            set up the membership structure of the Guild and define &quot;Roles&quot;
-            that are specific to each Guild. Guild Admins may also specify
-            &quot;Rewards&quot;, in particular in the form of permitting certain
-            actions or enabling access to something. Rewards means in any digital
-            points awarded to users by the Guild Admin and any Tokens supplied by the
-            Guild Admin into the Pool and which may be claimed by users in accordance
-            with the applicable requirements and other terms of the Guild.
+            <strong>Roles, Requirements and Rewards</strong>: Collab Admins may
+            freely set up the membership structure of the Collab and define
+            &quot;Roles&quot; that are specific to each Collab. Collab Admins may
+            also specify &quot;Rewards&quot;, in particular in the form of permitting
+            certain actions or enabling access to something. Rewards means in any
+            digital points awarded to users by the Collab Admin and any Tokens
+            supplied by the Collab Admin into the Pool and which may be claimed by
+            users in accordance with the applicable requirements and other terms of
+            the Collab.
           </li>
           <li>
             Roles and Rewards may be conditional upon the &quot;Requirements&quot;
-            set by the Guild Admin.
+            set by the Collab Admin.
           </li>
           <li>
-            <strong>Joining a Guild</strong>: If you meet certain Requirements, you
-            may be able to join a Guild in a specific Role and/or you may be entitled
-            to Rewards. You understand and acknowledge that (i) Guild Admins are
-            solely responsible for the terms of their Guilds, including the relevant
-            Requirements, Roles and Reward; (ii) the Service Provider has no
-            responsibility for such terms, and you cannot claim access to any
+            <strong>Joining a Collab</strong>: If you meet certain Requirements, you
+            may be able to join a Collab in a specific Role and/or you may be
+            entitled to Rewards. You understand and acknowledge that (i) Collab
+            Admins are solely responsible for the terms of their Collabs, including
+            the relevant Requirements, Roles and Reward; (ii) the Service Provider
+            has no responsibility for such terms, and you cannot claim access to any
             Requirements or any Rewards directly from the Service Provider in
-            relation to the completion of any Requirements; (iii) Guilds may change
+            relation to the completion of any Requirements; (iii) Collabs may change
             the Requirements for certain Roles or Rewards from time to time and the
             Service Provider has no responsibility for any such changes.
           </li>
@@ -160,7 +161,7 @@ const Page = (): JSX.Element => (
             Platforms&quot;) with your Profile. Providing your credentials and
             authorizing access to such Third-party Platforms, may result in the
             access, use, disclosure of certain Personal Data to the Service Provider
-            and depending on your choices, also to certain Guilds. You acknowledge
+            and depending on your choices, also to certain Collabs. You acknowledge
             that the use of any Third-party Platform is governed solely by the terms
             and conditions and privacy policy of such Third-party Platform.
           </li>
@@ -186,21 +187,22 @@ const Page = (): JSX.Element => (
           </li>
           <li>
             <strong>Data sharing</strong>: In accordance with section 3, you may
-            decide to join or leave certain Guilds. Depending on the different
+            decide to join or leave certain Collabs. Depending on the different
             Third-Party Platforms connected with your Profile and whether you decide
-            to share your Profile with a certain Guild, this may result in the
+            to share your Profile with a certain Collab, this may result in the
             disclosure, access, or use of your personal data shared with us. You
-            understand and acknowledge that the data processing activities of a Guild
-            are governed solely by the terms and conditions of and privacy policy of
-            the relevant Guild. The Service Provider does not endorse, is not liable
-            for, and makes no representations in respect of any Guilds, or the manner
-            in which such Guild uses, stores, or processes personal data. You agree
-            that (i) it is solely the responsibility of the relevant Guild to inform
-            you of any relevant policies and practices that may impact the processing
-            of your data, (ii) obtain any rights, permissions or consent from you
-            that are necessary for the lawful use of your data, (iii) ensure that the
-            transfer and processing of your data is lawful, (iv) respond to and
-            resolve any dispute with you relating to our personal data.
+            understand and acknowledge that the data processing activities of a
+            Collab are governed solely by the terms and conditions of and privacy
+            policy of the relevant Collab. The Service Provider does not endorse, is
+            not liable for, and makes no representations in respect of any Collabs,
+            or the manner in which such Collab uses, stores, or processes personal
+            data. You agree that (i) it is solely the responsibility of the relevant
+            Collab to inform you of any relevant policies and practices that may
+            impact the processing of your data, (ii) obtain any rights, permissions
+            or consent from you that are necessary for the lawful use of your data,
+            (iii) ensure that the transfer and processing of your data is lawful,
+            (iv) respond to and resolve any dispute with you relating to our personal
+            data.
           </li>
           <li>
             <strong>Third-Party Platforms</strong>: The Service Provider does not
@@ -218,9 +220,9 @@ const Page = (): JSX.Element => (
             Services to you. You agree that the Service Provider and third-party
             service providers may access and process your personal data in countries
             outside of the European Economic Area (EEA). You also understand and
-            agree that by joining a Guild, you consent that your relevant personal
-            data will be shared with such Guild and that the Guild may be subject to
-            the laws of a jurisdiction outside of the EEA.
+            agree that by joining a Collab, you consent that your relevant personal
+            data will be shared with such Collab and that the Collab may be subject
+            to the laws of a jurisdiction outside of the EEA.
           </li>
         </ol>
       </section>
@@ -283,7 +285,7 @@ const Page = (): JSX.Element => (
             of smart contracts that forward the transaction to the final destination.
             These smart contracts are deployed by Kindness.id. (ii) Gas Fee: This fee
             is for the Ethereum nodes to validate the transaction. It is not related
-            to Guild. Read about it here:
+            to Collab. Read about it here:
             https://www.investopedia.com/terms/g/gas-ethereum.asp Transaction fees
             are final and are non-refundable.
           </li>
@@ -669,36 +671,37 @@ const Page = (): JSX.Element => (
         <ol>
           <li>
             <strong>Pools</strong>: &quot;Pools&quot; shall mean the pool created by
-            Guild Admins interacting with the ITokenPool smart contract, with such
-            pool being solely managed and owned by Guild Admins, and is also supplied
-            with Tokens solely and exclusively by the Guild Admins.
+            Collab Admins interacting with the ITokenPool smart contract, with such
+            pool being solely managed and owned by Collab Admins, and is also
+            supplied with Tokens solely and exclusively by the Collab Admins.
           </li>
           <li>
-            <strong>Creation and ownership of Pools</strong>: Guild Admins are solely
-            responsible for the creation of Pools, and retain ownership rights over
-            such Pools at all times. Such pool being solely managed and owned by
-            Guild Admins, and is also supplied with Tokens solely and exclusively by
-            the Guild Admins. Guild Admins may elect, at their discretion, to supply
-            the relevant Pool with Crypto-Assets, and may also elect to remove any or
-            all of the supply of Crypto-Assets in the relevant Pool. The Guild Admin
-            may also elect to transfer the ownership of the relevant Pool at their
-            discretion.
+            <strong>Creation and ownership of Pools</strong>: Collab Admins are
+            solely responsible for the creation of Pools, and retain ownership rights
+            over such Pools at all times. Such pool being solely managed and owned by
+            Collab Admins, and is also supplied with Tokens solely and exclusively by
+            the Collab Admins. Collab Admins may elect, at their discretion, to
+            supply the relevant Pool with Crypto-Assets, and may also elect to remove
+            any or all of the supply of Crypto-Assets in the relevant Pool. The
+            Collab Admin may also elect to transfer the ownership of the relevant
+            Pool at their discretion.
           </li>
           <li>
-            <strong>Guild Member claims</strong>: Customer accessing and/or forming
-            part of the Guild (&quot;Guild Member&quot;) may be allowed, by the Guild
-            Admin, to claim Tokens and Rewards subject to the fulfillment of the
-            requirements set by the Guild Admin. Guild Members hereby acknowledge and
-            agree that any terms applicable to the fulfillment of requirements in
-            order to potentially claim Rewards, as well as any Tokens from the Pool
-            are solely set by, and within the discretion of, the Guild Admin. Guild
-            Admins are also fully responsible for any distributions of Tokens.
+            <strong>Collab Member claims</strong>: Customer accessing and/or forming
+            part of the Collab (&quot;Collab Member&quot;) may be allowed, by the
+            Collab Admin, to claim Tokens and Rewards subject to the fulfillment of
+            the requirements set by the Collab Admin. Collab Members hereby
+            acknowledge and agree that any terms applicable to the fulfillment of
+            requirements in order to potentially claim Rewards, as well as any Tokens
+            from the Pool are solely set by, and within the discretion of, the Collab
+            Admin. Collab Admins are also fully responsible for any distributions of
+            Tokens.
           </li>
           <li>
-            <strong>Token supply to the Pool</strong>: Guild Admins hereby undertake
+            <strong>Token supply to the Pool</strong>: Collab Admins hereby undertake
             full responsibility over any Tokens supplied to the Pool, including full
             adherence to, and compliance with, any applicable laws concerning the
-            Tokens themselves or the issuance thereof. Guild Admins shall not
+            Tokens themselves or the issuance thereof. Collab Admins shall not
             display, on the Platform, any information pertaining to the Tokens other
             than: i) the name of the Token; ii) the identifier/ticker of the Token;
             iii) the address for the issuing smart contract for such Token; and iv) a
@@ -706,12 +709,12 @@ const Page = (): JSX.Element => (
             Token.
           </li>
           <li>
-            <strong>Claiming fees</strong>: Guild Admins may elect, at their
+            <strong>Claiming fees</strong>: Collab Admins may elect, at their
             discretion, to set fees applicable for any claims of Tokens or Rewards
-            initiated by Guild Members. Such fees are sent to an address selected by
-            the Guild Admin, with the Service Provider not having any rights
+            initiated by Collab Members. Such fees are sent to an address selected by
+            the Collab Admin, with the Service Provider not having any rights
             whatsoever to receive any of the fees set, received, or otherwise
-            directed by the Guild Admin. The Guild Admin also retains full control
+            directed by the Collab Admin. The Collab Admin also retains full control
             over the parameters and amounts of such fees.
           </li>
           <li>

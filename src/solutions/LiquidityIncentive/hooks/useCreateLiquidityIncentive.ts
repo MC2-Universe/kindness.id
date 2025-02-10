@@ -19,7 +19,7 @@ const useCreateLiquidityIncentive = (onSuccess: () => void) => {
 
   const submit = async (data: LiquidityIncentiveForm) => {
     if (!id) {
-      showErrorToast("Couldn't fetch Guild Id")
+      showErrorToast("Couldn't fetch Collab Id")
       return
     }
 

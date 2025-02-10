@@ -273,7 +273,7 @@ const ConnectFarcasterButton = ({
 
               <p className="text-center text-muted-foreground text-sm">
                 One Farcaster account can only be connected to{" "}
-                <strong>one Guild account</strong> at a time
+                <strong>one Collab account</strong> at a time
               </p>
 
               <Separator className="mt-4" />
@@ -284,15 +284,15 @@ const ConnectFarcasterButton = ({
                   className="text-muted-foreground text-sm"
                 >
                   <AccordionTrigger>
-                    Why does Guild request write access?
+                    Why does Collab request write access?
                   </AccordionTrigger>
                   <AccordionContent>
                     <p>
-                      Guild is a Farcaster client. You can perform Farcaster actions,
-                      like follow, or recast to satisfy requirements. You can also
-                      perform these actions in external Farcaster clients, like
-                      Warpcast, but it will take some time for Guild to grant access
-                      based on actions in external clients
+                      Collab is a Farcaster client. You can perform Farcaster
+                      actions, like follow, or recast to satisfy requirements. You
+                      can also perform these actions in external Farcaster clients,
+                      like Warpcast, but it will take some time for Collab to grant
+                      access based on actions in external clients
                     </p>
                   </AccordionContent>
                 </AccordionItem>

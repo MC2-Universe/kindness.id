@@ -52,7 +52,7 @@ const BalancyCounterWithPopover = ({ ...rest }) => {
               <PopoverArrow />
               <PopoverBody>
                 <Text>
-                  Number of addresses meeting the requirements for your quest.
+                  Number of addresses meeting the requirements for your collab.
                 </Text>
 
                 <Wrap spacing={1} mt={3}>

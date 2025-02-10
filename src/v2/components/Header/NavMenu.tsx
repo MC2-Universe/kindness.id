@@ -35,7 +35,9 @@ export const NavMenu = () => (
     <PopoverTrigger asChild>
       <Button className="rounded-2xl text-banner-foreground" variant="ghost">
         <GuildLogo className="size-4 text-banner-foreground" />
-        <span className="font-bold font-display text-base">Kindness</span>
+        <span className="font-display text-base">
+          <span className="font-bold">Kindness</span> 10<sup>9</sup>
+        </span>
         <List weight="bold" className="ml-1" />
       </Button>
     </PopoverTrigger>

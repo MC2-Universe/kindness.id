@@ -97,7 +97,7 @@ const EditGuildFormComponent = () => {
 
   const onSuccess = () => {
     toast({
-      title: `Guild successfully updated!`,
+      title: `Collab successfully updated!`,
       status: "success",
     })
     reset(undefined, { keepValues: true })
@@ -207,7 +207,7 @@ const EditGuildFormComponent = () => {
 
           <Section title="Contact info" spacing="2">
             <Text colorScheme="gray">
-              Only visible to the Guild Team to reach you with support and
+              Only visible to the Collab Team to reach you with support and
               partnership initiatives if needed.
             </Text>
             <ContactInfo />

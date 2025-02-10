@@ -128,7 +128,7 @@ const useCollectToken = (
         setLoadingText("")
         toastWithShareButtons({
           title: "Successfully claimed your tokens!",
-          shareText: `Just collected my tokens in the ${name} guild!\nkindness.id/${urlName}`,
+          shareText: `Just collected my tokens in the ${name} collab!\nkindness.id/${urlName}`,
         })
 
         captureEvent("Successful token claiming", {
@@ -151,7 +151,7 @@ const useCollectToken = (
                 case "AddressEmptyCode":
                   return "The user address is missing. Please try again after logging back in!"
                 case "Panic":
-                  return "The reward pool does not have enough tokens. The guild admin needs to fund it."
+                  return "The reward pool does not have enough tokens. The collab admin needs to fund it."
               }
             })
 

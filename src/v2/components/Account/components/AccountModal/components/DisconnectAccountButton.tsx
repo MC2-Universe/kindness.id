@@ -52,7 +52,7 @@ const DisconnectAccountButton = ({
         <AlertDialogHeader>
           <AlertDialogTitle>{`Disconnect ${name} account`}</AlertDialogTitle>
           <AlertDialogDescription>
-            {`Are you sure? This account will lose every Guild gated access on ${name}.`}
+            {`Are you sure? This account will lose every Collab gated access on ${name}.`}
           </AlertDialogDescription>
         </AlertDialogHeader>
         <AlertDialogFooter>

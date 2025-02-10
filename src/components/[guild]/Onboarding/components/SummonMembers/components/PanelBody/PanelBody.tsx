@@ -13,7 +13,7 @@ import PanelDescription from "./components/PanelDescription"
 import PanelTitle from "./components/PanelTitle"
 
 const GUILD_CASTLE_SIZE = 70
-const GUILD_LOGO_DC_URL = "/img/dc-message.png"
+const GUILD_LOGO_DC_URL = "/upi.png"
 
 const PanelBody = () => {
   const bg = useColorModeValue("gray.100", "#2F3136")
@@ -38,7 +38,7 @@ const PanelBody = () => {
                 width={guildImageDimension}
                 height={guildImageDimension}
                 src={(shouldShowGuildImage && imageUrl) || GUILD_LOGO_DC_URL}
-                alt="Guild Icon"
+                alt="Collab Icon"
               />
             </Center>
 
@@ -53,7 +53,7 @@ const PanelBody = () => {
         <Box m={1}>
           <Image
             src={GUILD_LOGO_DC_URL}
-            alt="Guild Logo"
+            alt="Collab Logo"
             width={GUILD_CASTLE_SIZE}
             height={GUILD_CASTLE_SIZE}
             style={{

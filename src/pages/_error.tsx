@@ -7,7 +7,7 @@ import NotFoundIcon from "static/avatars/58.svg"
 const Page = ({ statusCode }): JSX.Element => (
   <>
     <Head>
-      <title>{`Guild - ${statusCode || "Client-side"} error`}</title>
+      <title>{`Kindness Collab - ${statusCode || "Client-side"} error`}</title>
     </Head>
     <Flex
       alignItems="center"

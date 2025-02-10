@@ -118,7 +118,7 @@ const ClaimTokenModal = ({ isOpen, onClose }: Props) => {
     if (!isAvailable)
       return claimTextButtonTooltipLabel[getRolePlatformStatus(rolePlatforms[0])]
     if (!isBalanceSufficient)
-      return "You don't have enough balance to pay the guild fee!"
+      return "You don't have enough balance to pay the collab fee!"
     if (!isConfirmed)
       return "You need to confirm you're not a citizen of the restricted countries!"
   }, [isAvailable, isBalanceSufficient, isConfirmed, rolePlatforms])

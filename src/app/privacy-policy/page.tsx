@@ -43,11 +43,11 @@ const Page = (): JSX.Element => (
         </p>
 
         <p>
-          As a Customer, Guild Admin or Subscriber of our Services, the collection,
+          As a Customer, Collab Admin or Subscriber of our Services, the collection,
           use and sharing of your personal data is subject to this notice. Please
           note that this notice does not apply to any Third-Party Platforms connected
           with your profile via the Services, or to the privacy practices of any
-          Guilds that you join. Unless defined otherwise, capitalized terms in this
+          Collabs that you join. Unless defined otherwise, capitalized terms in this
           notice will have the same meaning as in the Terms of Use.
         </p>
       </section>
@@ -120,15 +120,15 @@ const Page = (): JSX.Element => (
             </table>
             Whether or not you will share such information with us is entirely up to
             you. Upon your consent, we may also share such information with the
-            Guilds selected by you.
+            Collabs selected by you.
           </li>
 
           <li>
-            <b>Membership information</b>: When you create or join a Guild, we will
+            <b>Membership information</b>: When you create or join a Collab, we will
             process information about your Roles, Rewards as well as any Requirements
             that you have set or completed. Such data is necessary for us to provide
             the Services. Please note that this information will also be available
-            for others you collaborate with, in particular for the relevant Guilds
+            for others you collaborate with, in particular for the relevant Collabs
             that you have joined and with whom you decide to share your Profile.
           </li>
 
@@ -281,13 +281,13 @@ const Page = (): JSX.Element => (
 
         <ol type="a">
           <li>
-            <b>Guild owners</b>: Depending on your use of the Services, you may
+            <b>Collab owners</b>: Depending on your use of the Services, you may
             decide to share certain personal data with others. In particular, if you
-            join a Guild, the Administrators of the relevant Guild may get access to
-            your personal data in the course of the management of their Guild.
+            join a Collab, the Administrators of the relevant Collab may get access
+            to your personal data in the course of the management of their Collab.
             Besides, you may also decide to share additional information, such as
             enhanced details with our Subscribers. If you have any questions about
-            the data processing practices of the relevant Guild, you should consult
+            the data processing practices of the relevant Collab, you should consult
             their Privacy Policy.
           </li>
 
@@ -473,10 +473,10 @@ const Page = (): JSX.Element => (
           processing of your data.
         </p>
         <p>
-          Where you decide that you would like to share data with a Guild, then they
+          Where you decide that you would like to share data with a Collab, then they
           will be considered as a data controller with respect to their processing.
           To learn more about their data processing practices, you should consult the
-          Privacy Policy of the relevant Guild.
+          Privacy Policy of the relevant Collab.
         </p>
       </section>
 

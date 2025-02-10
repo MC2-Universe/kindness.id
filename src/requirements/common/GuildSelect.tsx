@@ -91,10 +91,10 @@ const GuildSelect = ({ baseFieldPath }) => {
         <ControlledSelect
           name={`${baseFieldPath}.data.guildId`}
           rules={{
-            required: "Please select a guild",
+            required: "Please select a collab",
             pattern: {
               value: GUILD_URL_REGEX,
-              message: "Please input a valid Guild URL",
+              message: "Please input a valid Collab URL",
             },
           }}
           isLoading={isGuildsLoading || isSelectedGuildLoading}
@@ -105,7 +105,7 @@ const GuildSelect = ({ baseFieldPath }) => {
         />
       </InputGroup>
 
-      <FormHelperText>Select a guild or paste guild URL name</FormHelperText>
+      <FormHelperText>Select a collab or paste collab URL name</FormHelperText>
 
       <FormErrorMessage>
         {parseFromObject(errors, baseFieldPath)?.data?.guildId?.message}

@@ -31,7 +31,7 @@ const GuildPinRewardCard = () => {
           <Avatar>
             <AvatarImage
               src="/img/guild-pin-key-3d.svg"
-              alt="Guild pin"
+              alt="Kindness Badge"
               width={40}
               height={40}
             />

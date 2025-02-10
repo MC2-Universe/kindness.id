@@ -21,9 +21,9 @@ const DynamicTypeForm = () => {
   const dynamicOptions: Option[] = [
     {
       value: SnapshotOption.GUILD_POINTS,
-      title: "Guild points snapshot",
+      title: "Collab points snapshot",
       description:
-        "Calculate rewards based on users' Guild points at a specific time",
+        "Calculate rewards based on users' Collab points at a specific time",
       leftComponent: (
         <Circle bg={circleBgColor} p={3}>
           <Icon as={Star} />

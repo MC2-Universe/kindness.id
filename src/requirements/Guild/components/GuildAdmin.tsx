@@ -7,7 +7,7 @@ type Props = {
 const GuildAdmin = ({ baseFieldPath }: Props): JSX.Element => (
   <MinAmountInput
     baseFieldPath={baseFieldPath}
-    label="Be admin of a guild with at least ... members "
+    label="Be admin of a collab with at least ... members "
     defaultValue={0}
   />
 )

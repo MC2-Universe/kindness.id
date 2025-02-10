@@ -160,7 +160,7 @@ const ShareSocialsWithGuildSelect = ({
   return (
     <div className="flex items-center gap-4">
       <Avatar className="size-9">
-        <AvatarImage src={imageUrl} alt="guild logo" width={36} height={36} />
+        <AvatarImage src={imageUrl} alt="collab logo" width={36} height={36} />
         <AvatarFallback>
           <Skeleton className="size-full" />
         </AvatarFallback>
@@ -195,7 +195,7 @@ const ShareSocialsWithGuildSelect = ({
         <DropdownMenuContent className="w-96 max-w-full py-0">
           <MenuItemOption
             title="Shared"
-            description="The guild owner can see your profile"
+            description="The collab owner can see your profile"
             icon={ShieldCheck}
             onClick={() => onSubmit(true)}
             selected={isSharedBoolean}

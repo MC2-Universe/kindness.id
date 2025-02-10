@@ -100,7 +100,7 @@ const HaveRole = (props: RequirementProps): JSX.Element => {
       {...props}
     >
       {!roleId ? (
-        "The required guild role is invisible"
+        "The required collab role is invisible"
       ) : (
         <>
           <span>{"Have the "}</span>
@@ -146,7 +146,7 @@ const MinGuilds = (props: RequirementProps): JSX.Element => {
 
   return (
     <Requirement image="/requirementLogos/upi.png" {...props}>
-      {`Be a member of at least ${pluralize(requirement.data.minAmount, "kindness quest(s)")}`}
+      {`Be a member of at least ${pluralize(requirement.data.minAmount, "kindness collab(s)")}`}
     </Requirement>
   )
 }
@@ -156,7 +156,7 @@ const Admin = (props: RequirementProps): JSX.Element => {
 
   return (
     <Requirement image="/requirementLogos/upi.png" {...props}>
-      {`Be an admin of a guild${
+      {`Be an admin of a collab of kindness${
         requirement.data.minAmount > 0
           ? ` with at least ${pluralize(requirement.data.minAmount, "member")}`
           : ""
@@ -184,7 +184,7 @@ const GuildMember = (props: RequirementProps): JSX.Element => {
           showExternal={requirement.data.guildId !== id}
           target={requirement.data.guildId !== id ? "_blank" : undefined}
         >
-          {` ${name ?? `#${requirement.data.guildId}`} guild`}
+          {` ${name ?? `#${requirement.data.guildId}`} collab`}
         </Anchor>
       )}
     </Requirement>

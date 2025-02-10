@@ -13,7 +13,7 @@ export const FeaturedIcon = ({ className }: { className?: string }) => (
       <PushPin className="size-3" weight="bold" />
     </TooltipTrigger>
     <TooltipContent className="!font-body text-sm">
-      This Guild is featured by the Guild.xyz team
+      This Collab is featured by the Kindness.id community
     </TooltipContent>
   </Tooltip>
 )

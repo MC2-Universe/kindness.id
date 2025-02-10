@@ -111,7 +111,7 @@ const PlatformSelectButton = ({
               overflow="hidden"
               bgColor={circleBgColor}
             >
-              <Image src={imageUrl} alt="Guild logo" fill sizes="3rem" />
+              <Image src={imageUrl} alt="Collab logo" fill sizes="3rem" />
             </Circle>
           ) : (
             <Circle

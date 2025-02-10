@@ -51,6 +51,11 @@ export const env = createEnv({
     NEXT_PUBLIC_GOOGLE_CLIENT_ID: z.string(),
     NEXT_PUBLIC_GOOGLE_SERVICE_ACCOUNT_EMAIL: z.string(),
     NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID: z.string(),
+
+    // Internals
+    NEXT_PUBLIC_FIXED_EXPLORE: z.string(),
+    NEXT_PUBLIC_FIXED_ID: z.string(),
+    NEXT_PUBLIC_SEARCH_ID: z.string(),
   },
   runtimeEnv: {
     NEXT_PUBLIC_API: process.env.NEXT_PUBLIC_API,
@@ -75,6 +80,9 @@ export const env = createEnv({
       process.env.NEXT_PUBLIC_GOOGLE_SERVICE_ACCOUNT_EMAIL,
     NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID:
       process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID,
+    NEXT_PUBLIC_FIXED_EXPLORE: process.env.NEXT_PUBLIC_FIXED_EXPLORE,
+    NEXT_PUBLIC_FIXED_ID: process.env.NEXT_PUBLIC_FIXED_ID,
+    NEXT_PUBLIC_SEARCH_ID: process.env.NEXT_PUBLIC_SEARCH_ID,
 
     GUILD_API_KEY: process.env.GUILD_API_KEY,
     BALANCY_TOKEN: process.env.BALANCY_TOKEN,

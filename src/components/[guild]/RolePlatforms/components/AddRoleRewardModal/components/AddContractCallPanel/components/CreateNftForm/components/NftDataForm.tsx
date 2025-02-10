@@ -367,7 +367,7 @@ const NftDataForm = ({ isEditMode, submitButton }: Props) => {
                 </Skeleton>
                 {` ${
                   chain ? CHAIN_CONFIG[chain].nativeCurrency.symbol : "COIN"
-                } Guild minting fee. `}
+                } Collab minting fee. `}
                 <Link
                   href="https://help.kindness.id/en/articles/8193498-guild-base-fee"
                   isExternal

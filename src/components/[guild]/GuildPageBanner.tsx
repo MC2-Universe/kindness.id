@@ -7,7 +7,7 @@ const GuildPageBanner = () => {
   return localBackgroundImage ? (
     <Image
       src={localBackgroundImage}
-      alt="Guild background image"
+      alt="Collab background image"
       priority
       fill
       sizes="100vw"

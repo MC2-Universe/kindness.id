@@ -45,7 +45,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         )}
       </head>
       <body className={cn(dystopian.variable, inter.variable)}>
-        <NextTopLoader showSpinner={false} color="#eff6ff" height={3} />
+        <NextTopLoader showSpinner={false} color="#656fdf" height={3} />
 
         <Providers>
           {children}

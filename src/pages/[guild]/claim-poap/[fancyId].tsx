@@ -85,7 +85,7 @@ const Page = ({ fancyId }: Omit<Props, "fallback">) => {
             <ShareAndReportButtons
               isPulseMarkerHidden={rolePlatform?.claimedCount > 0}
               shareButtonLocalStorageKey={`poap_${fancyId}_hasClickedShareButton`}
-              shareText={`Check out and claim the ${`${name} `}POAP on Guild!`}
+              shareText={`Check out and claim the ${`${name} `}POAP on Kindness.id!`}
             />
           </HStack>
 

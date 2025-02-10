@@ -54,7 +54,7 @@ const AccessIndicator = ({ roleId, isOpen, onToggle }: Props): JSX.Element => {
         onClick={openJoinModal}
         className={cn(ACCESS_INDICATOR_CLASSNAME, "w-full sm:max-w-max")}
       >
-        Join quest to check access
+        Join collab to check access
       </Button>
     )
 

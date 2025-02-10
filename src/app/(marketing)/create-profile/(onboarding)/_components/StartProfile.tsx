@@ -96,7 +96,7 @@ export const StartProfile: CreateProfileStep = ({ data: chainData }) => {
   return (
     <div className="w-screen max-w-md space-y-3 p-8">
       <h1 className="mb-10 text-pretty text-center font-bold font-display text-2xl leading-none tracking-tight">
-        Start your Universal Profile!
+        Start your Kindness Profile!
       </h1>
 
       <FormProvider {...form}>

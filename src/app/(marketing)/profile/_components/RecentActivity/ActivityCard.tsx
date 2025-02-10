@@ -47,7 +47,7 @@ export const ActivityCard = ({ activity }: { activity: ActivityLogAction }) => {
                 width={24}
                 height={24}
                 src={guild.imageUrl}
-                alt="guild avatar"
+                alt="collab avatar"
               />
               <AvatarFallback />
             </Avatar>

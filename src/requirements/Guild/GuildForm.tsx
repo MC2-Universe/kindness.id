@@ -38,7 +38,7 @@ const guildRequirementTypes = [
     GuildRequirement: GuildAdmin,
   },
   {
-    label: "Be a guild member",
+    label: "Be a collab member",
     value: "GUILD_MEMBER",
     GuildRequirement: GuildSelect,
   },

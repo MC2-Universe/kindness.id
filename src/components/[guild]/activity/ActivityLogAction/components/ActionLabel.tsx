@@ -154,7 +154,7 @@ const ActionLabel = (): JSX.Element => {
           case ACTION.JoinGuild:
             return (
               <>
-                <Text as="span">Join quest</Text>
+                <Text as="span">Join collab</Text>
                 {showGuildTag && <ClickableGuildTag guildId={ids.guild} />}
                 {activityLogType !== "user" && (
                   <ClickableUserTag userId={ids.user} />
@@ -164,7 +164,7 @@ const ActionLabel = (): JSX.Element => {
           case ACTION.ClickJoinOnPlatform:
             return (
               <>
-                <Text as="span">{`Join quest through ${
+                <Text as="span">{`Join collab through ${
                   rewards[data.platformName].name
                 }`}</Text>
                 {showGuildTag ? (

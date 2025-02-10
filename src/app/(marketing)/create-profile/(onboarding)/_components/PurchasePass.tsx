@@ -89,7 +89,7 @@ export const PurchasePass: CreateProfileStep = ({ dispatchAction, data }) => {
                 disabled
                 rightIcon={<Info weight="bold" />}
               >
-                Allow Guild to use your ETH
+                Allow Collab to use your ETH
               </Button>
               <Button variant="subtle" className="w-full" disabled>
                 Purchase

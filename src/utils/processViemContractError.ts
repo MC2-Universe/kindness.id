@@ -33,7 +33,7 @@ const processViemContractError = (
       (err) => err instanceof InsufficientFundsError
     )
     if (insufficientFundsError) {
-      return "Your current balance is insufficient to cover the guild fee and the transaction gas costs"
+      return "Your current balance is insufficient to cover the collab fee and the transaction gas costs"
     }
 
     return (

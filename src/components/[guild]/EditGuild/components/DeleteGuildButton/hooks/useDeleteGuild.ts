@@ -27,7 +27,7 @@ const useDeleteGuild = () => {
   return useSubmitWithSign<any>(submit, {
     onSuccess: () => {
       toast({
-        title: `Guild deleted!`,
+        title: `Collab deleted!`,
         description: "You're being redirected to the home page",
         status: "success",
       })

@@ -42,7 +42,7 @@ const RewardImagePicker = ({ defaultIcon }) => {
         p={0}
         overflow="hidden"
         colorScheme="gray"
-        aria-label="Guild logo"
+        aria-label="Collab logo"
         variant="outline"
         borderWidth={1}
         bg={iconButtonBgColor}

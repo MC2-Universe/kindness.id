@@ -21,7 +21,7 @@
     --tooltip: 0 0% 0%;
     --tooltip-foreground: 0 0% 100%;
 
-    --primary: 239 78% 65%;
+    --primary: 266 78% 65%;
     --primary-hover: 243 75% 59%;
     --primary-active: 245 58% 51%;
     --primary-foreground: 0 0% 100%;
@@ -175,7 +175,7 @@
     --tooltip: 240 5% 84%;
     --tooltip-foreground: 240 4% 16%;
 
-    --primary: 239 78% 65%;
+    --primary: 266 78% 65%;
     --primary-hover: 234 89% 74%;
     --primary-active: 230 94% 82%;
     --primary-foreground: 0 0% 100%;
@@ -217,7 +217,7 @@
     --warning-subtle: 33 90% 65%;
     --warning-subtle-foreground: var(--warning-subtle);
 
-    --banner: #36363a;
+    --banner: #2b2d36;
 
     --muted: 240 3% 13%;
     --muted-foreground: 240 5% 60%;

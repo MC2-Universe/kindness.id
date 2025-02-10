@@ -63,7 +63,13 @@ const Page = async ({ searchParams }: { searchParams: SearchParams }) => {
           <Header />
 
           <LayoutHeadline id={ActiveSection.YourGuilds}>
-            <LayoutTitle>Kindness Quests</LayoutTitle>
+            <LayoutTitle>Kindness Profile</LayoutTitle>
+            <h2
+              className="line-clamp-1 break-all font-display leading-tight sm:leading-tight"
+              style={{ position: "absolute", marginTop: "70px", marginLeft: "4px" }}
+            >
+              Your passport to 1 billion acts of kindness
+            </h2>
           </LayoutHeadline>
         </LayoutHero>
 

@@ -107,7 +107,6 @@ const useSetKeyPair = (submitOptions?: UseSubmitOptions) => {
         !recaptcha.ref || !!captchaVerifiedSince
           ? undefined
           : await recaptcha.ref.executeAsync()
-      console.log("reCaptchaToken", reCaptchaToken)
       const generatedKeys = await generateKeyPair().catch((err) => {
         if (err?.code !== 4001) {
           captureEvent(`Keypair generation error`, {

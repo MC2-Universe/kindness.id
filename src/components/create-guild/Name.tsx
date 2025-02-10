@@ -35,7 +35,7 @@ const Name = ({
           },
           pattern: {
             value: GUILD_NAME_REGEX,
-            message: "Guild name should include at least one letter",
+            message: "Collab name should include at least one letter",
           },
         })}
         isDisabled={isDisabled}

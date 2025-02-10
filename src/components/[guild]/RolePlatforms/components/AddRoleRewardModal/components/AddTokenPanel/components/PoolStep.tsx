@@ -92,7 +92,8 @@ const PoolStep = ({ onSubmit }: { onSubmit: () => void }) => {
     return (
       <Stack>
         <Text colorScheme="gray">
-          You're all set! You had already set up a pool for this token in your quest.
+          You're all set! You had already set up a pool for this token in your
+          collab.
         </Text>
         <Button
           size="lg"

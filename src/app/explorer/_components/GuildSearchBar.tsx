@@ -40,7 +40,7 @@ export const GuildSearchBar = () => {
     <div className="relative flex flex-col gap-3 sm:flex-row sm:gap-0">
       <Input
         className="relative h-12 grow rounded-xl border border-border-muted pr-6 pl-10 text-md sm:rounded-r-none"
-        placeholder="Search verified kindness quests"
+        placeholder="Search verified kindness collabs"
         onChange={({ currentTarget }) => setSearch(currentTarget.value)}
         value={search}
       />

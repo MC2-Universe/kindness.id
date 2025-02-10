@@ -26,7 +26,7 @@ const useLeaveGuild = (onSuccess?: () => void) => {
   return useSubmitWithSign<Response>(submit, {
     onSuccess: () => {
       toast({
-        title: "You've successfully left this guild",
+        title: "You've successfully left this collab",
         status: "success",
       })
 

@@ -11,8 +11,8 @@ const PrimaryAddressBadge = ({ size }: Props): JSX.Element => (
     </TooltipTrigger>
     <TooltipContent>
       <p>
-        Guild owners will receive this address if they export members from their
-        guild
+        Collab owners will receive this address if they export members from their
+        collab
       </p>
     </TooltipContent>
   </Tooltip>

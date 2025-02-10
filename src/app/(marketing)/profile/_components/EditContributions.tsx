@@ -73,7 +73,7 @@ const EditContributionCard = ({
           }}
         >
           <SelectTrigger>
-            <SelectValue placeholder="Select from your quests of kindness" />
+            <SelectValue placeholder="Select from your collabs of kindness" />
           </SelectTrigger>
           <SelectContent>
             {roleIds?.map((roleId) => (
@@ -151,7 +151,7 @@ export const EditContributions = () => {
                   value={guildId}
                 >
                   <SelectTrigger>
-                    <SelectValue placeholder="Select from your quests of kindness" />
+                    <SelectValue placeholder="Select from your collabs of kindness" />
                   </SelectTrigger>
                   <SelectContent>
                     {guilds?.map((data) => (
@@ -224,7 +224,7 @@ const GuildSelectItem = ({ guildId }: Pick<MembershipResult, "guildId">) => {
             src={data.imageUrl}
             width={32}
             height={32}
-            alt="guild avatar"
+            alt="collab avatar"
           />
           <AvatarFallback />
         </Avatar>
@@ -252,7 +252,7 @@ const RoleSelectItem = ({
             src={data.imageUrl}
             width={32}
             height={32}
-            alt="guild avatar"
+            alt="collab avatar"
           />
           <AvatarFallback />
         </Avatar>

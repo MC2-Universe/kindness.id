@@ -78,7 +78,7 @@ export const PromptReferrer: CreateProfileStep = ({ dispatchAction, data }) => {
                 </FormControl>
                 <FormErrorMessage />
                 <FormDescription>
-                  Guild profiles are invite only, you must provide an existing
+                  Collab profiles are invite only, you must provide an existing
                   profile username
                 </FormDescription>
               </FormItem>

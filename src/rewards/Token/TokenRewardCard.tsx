@@ -64,7 +64,7 @@ const TokenRewardCard = () => {
         image={
           imageUrl.match("guildLogos") ? (
             <Circle size={10} bgColor={bgColor}>
-              <Img src={imageUrl} alt="Guild logo" boxSize="40%" />
+              <Img src={imageUrl} alt="Collab logo" boxSize="40%" />
             </Circle>
           ) : (
             imageUrl

@@ -97,7 +97,7 @@ const CreateGuildImageUploader = () => {
           ) : imageUrl ? (
             <img
               src={imageUrl}
-              alt="Guild image"
+              alt="Collab image"
               className="size-full object-cover"
             />
           ) : isDragActive ? (
