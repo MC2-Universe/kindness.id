@@ -65,7 +65,7 @@
     --warning-subtle-foreground: var(--warning);
 
     /* these are stored as hex so it's consistent with custom values on profiles with backgroundImageUrl. We plan to migrate all colors to hex values */
-    --banner: #27272a;
+    --banner: #2b2d36;
     --banner-dark: #1e1e1f;
     --banner-foreground: #f9fafb;
     --banner-opacity: 1;

@@ -2,19 +2,19 @@
 
 import { cn } from "@/lib/utils"
 import {
+  Atom,
+  Bank,
   Book,
-  Code,
+  CirclesThree,
   DiscordLogo,
   File,
-  House,
-  Info,
   List,
-  Package,
   Palette,
-  Plus,
+  Scales,
+  ScanSmiley,
   Shield,
   UsersThree,
-  XLogo,
+  WebhooksLogo,
 } from "@phosphor-icons/react/dist/ssr"
 import dynamic from "next/dynamic"
 import Link, { LinkProps } from "next/link"
@@ -48,17 +48,17 @@ export const NavMenu = () => (
       <nav className="flex flex-col gap-2 px-3 py-4 sm:flex-row sm:gap-12">
         <NavGroup title="Navigation">
           <NavButton href="/explorer">
-            <House weight="bold" />
+            <Atom weight="bold" />
             Explore kindness
           </NavButton>
 
           <NavButton href="/create-guild">
-            <Plus weight="bold" />
+            <ScanSmiley weight="bold" />
             Create kindness
           </NavButton>
 
           <NavButton href="https://playmc2.com/unitekindness">
-            <Info weight="bold" />
+            <CirclesThree weight="bold" />
             Mission
           </NavButton>
 
@@ -85,17 +85,17 @@ export const NavMenu = () => (
           </NavButton>
 
           <NavButton href="https://unitekindness.dao/">
-            <XLogo weight="bold" />
+            <WebhooksLogo weight="bold" />
             DAO
           </NavButton>
 
           <NavButton href="https://dao.hypha.earth/kindness">
-            <Code weight="bold" />
+            <Scales weight="bold" />
             Hypha
           </NavButton>
 
           <NavButton href="https://app.aragon.org/#/daos/polygon/0xff1ea398c595bb4b0dc7b3cbeda1f2b53715ecd9">
-            <Package weight="bold" />
+            <Bank weight="bold" />
             Aragon
           </NavButton>
 
@@ -104,7 +104,7 @@ export const NavMenu = () => (
             Team
           </NavButton>
 
-          <NavButton href="https://playmc2.com/kindness.id-brand-kit.zip">
+          <NavButton href="#/kindness.id-brand-kit.zip">
             <Palette weight="bold" />
             Brand kit
           </NavButton>
