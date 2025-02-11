@@ -22,7 +22,10 @@ export const ProfileColorBanner = () => {
   return (
     <>
       <div
-        className={cn("absolute inset-0 bg-[url('/banner.svg')]", patternOpacity)}
+        className={cn(
+          "absolute inset-0 bg-[url('/kindness_banner.svg')]",
+          patternOpacity
+        )}
         style={{
           backgroundSize: "auto 50%",
           backgroundPosition: "top 5px right 0px",

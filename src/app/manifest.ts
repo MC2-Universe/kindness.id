@@ -12,7 +12,7 @@ export default function manifest(): MetadataRoute.Manifest {
     start_url: "/",
     screenshots: [
       {
-        src: "banner.svg",
+        src: "kindness_banner.svg",
         type: "wide",
         sizes: "1791x565",
       },

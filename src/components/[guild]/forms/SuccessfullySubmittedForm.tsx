@@ -7,7 +7,7 @@ import useGuild from "../hooks/useGuild"
 
 const SuccessfullySubmittedForm = () => {
   const bgColor = useColorModeValue("var(--chakra-colors-gray-100)", "#343439")
-  const bgFile = useColorModeValue("bg_light.svg", "bg.svg")
+  const bgFile = useColorModeValue("kindness_bg_light.svg", "kindness_bg.svg")
 
   const { urlName } = useGuild()
 

@@ -24,7 +24,7 @@ const GuildPinRewardCard = () => {
 
   return (
     <Card className="relative flex flex-col justify-between bg-card-secondary p-5 sm:p-6">
-      <div className="absolute inset-0 bg-[length:140%] bg-[top_7px_right_7px] bg-[url('/landing/bg_light.svg')] bg-no-repeat opacity-[0.07] dark:bg-[url('/landing/bg.svg')]" />
+      <div className="absolute inset-0 bg-[length:140%] bg-[top_7px_right_7px] bg-[url('/landing/kindness_bg_light.svg')] bg-no-repeat opacity-[0.07] dark:bg-[url('/landing/kindness_bg.svg')]" />
       <div className="absolute inset-0 bg-gradient-to-tr from-70% from-card-secondary to-transparent" />
       <div className="relative mb-5 flex items-center gap-3">
         <div className="flex size-10 shrink-0 items-center justify-center rounded-full bg-image">

@@ -79,7 +79,7 @@ export const GuildInfiniteScroll = ({
   useScrollBatchedRendering({
     batchSize: 1,
     scrollTarget: ref,
-    disableRendering: isValidating,
+    disableRendering: isValidating || FIXED_SEARCH,
     setElementCount: setSize,
     offsetPixel: 420,
   })

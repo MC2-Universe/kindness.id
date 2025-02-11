@@ -19,7 +19,7 @@ import { ActiveSection } from "./types"
 export const metadata = {
   icons: {
     // @ts-ignore: "as" prop not typed out.
-    other: [{ rel: "preload", url: "/banner.svg", as: "image" }],
+    other: [{ rel: "preload", url: "/kindness_banner.svg", as: "image" }],
   },
 }
 
@@ -56,7 +56,7 @@ const Page = async ({ searchParams }: { searchParams: SearchParams }) => {
       <Layout>
         <LayoutHero>
           <LayoutBanner>
-            <div className="absolute inset-0 bg-[auto_115%] bg-[right_top_10px] bg-[url('/banner.svg')] bg-no-repeat opacity-10" />
+            <div className="absolute inset-0 bg-[auto_115%] bg-[right_top_10px] bg-[url('/kindness_banner.svg')] bg-no-repeat opacity-50" />
             <div className="absolute inset-0 bg-gradient-to-tr from-50% from-banner to-transparent" />
           </LayoutBanner>
 

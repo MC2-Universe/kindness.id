@@ -27,7 +27,7 @@ import LeaderboardAirdropFallbackCard from "./LeaderboardAirdropFallbackCard"
 const LeaderboardAirdropCard = () => {
   const { token, guildPlatform } = useTokenRewardContext()
   const modalBg = useCardBg()
-  const bgFile = useColorModeValue("bg_light.svg", "bg.svg")
+  const bgFile = useColorModeValue("kindness_bg_light.svg", "kindness_bg.svg")
   const gradientColor = useColorModeValue(
     "var(--chakra-colors-gold-100)",
     `var(--chakra-colors-gold-800)`
