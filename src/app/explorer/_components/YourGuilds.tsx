@@ -50,7 +50,7 @@ export const YourGuilds = () => {
             className={buttonVariants({ className: "hover:no-underline" })}
           >
             <Plus weight="bold" />
-            <span>Create collab of kindness</span>
+            <span>Create kindness</span>
           </Anchor>
         ) : (
           <Button
