@@ -15,7 +15,7 @@ interface RootLayoutProps {
 }
 
 export const metadata: Metadata = {
-  title: "Kindness Passport",
+  title: "Kindness Profile",
   applicationName: "kindness.id",
   description:
     "Earn trust and rewards by sharing your kindness identity with the world",
