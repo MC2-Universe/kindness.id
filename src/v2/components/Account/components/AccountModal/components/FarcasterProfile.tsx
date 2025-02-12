@@ -284,15 +284,15 @@ const ConnectFarcasterButton = ({
                   className="text-muted-foreground text-sm"
                 >
                   <AccordionTrigger>
-                    Why does Collab request write access?
+                    Why does Kindness.id request write access?
                   </AccordionTrigger>
                   <AccordionContent>
                     <p>
-                      Collab is a Farcaster client. You can perform Farcaster
+                      Kindness.id is a Farcaster client. You can perform Farcaster
                       actions, like follow, or recast to satisfy requirements. You
                       can also perform these actions in external Farcaster clients,
-                      like Warpcast, but it will take some time for Collab to grant
-                      access based on actions in external clients
+                      like Warpcast, but it will take some time for Kindness.id to
+                      grant access based on actions in external clients
                     </p>
                   </AccordionContent>
                 </AccordionItem>

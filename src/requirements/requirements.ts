@@ -72,7 +72,7 @@ export const REQUIREMENTS_DATA = [
   },
   {
     icon: GuildLogo,
-    name: "Guild",
+    name: "Kindness",
     types: [
       "GUILD_ROLE",
       "GUILD_ROLE_RELATIVE",

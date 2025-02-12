@@ -80,7 +80,7 @@ const GuildSelect = ({ baseFieldPath }) => {
       isRequired
       isInvalid={!!parseFromObject(errors, baseFieldPath)?.data?.guildId?.message}
     >
-      <FormLabel>Guild</FormLabel>
+      <FormLabel>Collab</FormLabel>
 
       <InputGroup>
         {guildId && selectedGuild?.imageUrl && (

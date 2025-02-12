@@ -141,7 +141,7 @@ export const EditContributions = () => {
             </h3>
             <Card className="flex flex-col gap-2 border border-dashed bg-card-secondary p-5">
               <div className="pb-2">
-                <Label>Guild</Label>
+                <Label>Collab</Label>
                 <Select
                   disabled={guilds?.length === 0}
                   onValueChange={(value) => {
