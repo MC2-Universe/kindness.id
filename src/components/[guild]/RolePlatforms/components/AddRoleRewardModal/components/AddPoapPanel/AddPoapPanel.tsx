@@ -125,7 +125,7 @@ const AddPoapPanel = ({ onAdd }: AddRewardPanelProps) => {
             >
               POAP.xyz
             </Link>
-            , then import it below to distribute it with Guild!
+            , then import it below to distribute it with Kindness!
           </Text>
 
           <FormControl isInvalid={!!errors?.eventId}>

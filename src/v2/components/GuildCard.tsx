@@ -30,20 +30,21 @@ export const GuildCard: React.FC<Props> = ({ guildData }) => (
       <h3 className="max-w-36 truncate font-bold font-display text-foreground text-lg tracking-wide">
         {guildData.name}
       </h3>
-      {guildData.tags.includes("VERIFIED") ||
-        (guildData.urlName === "unite-kindness" && (
-          <Tooltip>
-            <TooltipTrigger
-              className="relative px-1 pt-1"
-              aria-label="verified checkmark"
-            >
-              <CheckMark />
-            </TooltipTrigger>
-            <TooltipContent>
-              This collab is verified by <code>Kindness.id</code>
-            </TooltipContent>
-          </Tooltip>
-        ))}
+      {(guildData.tags.includes("VERIFIED") ||
+        guildData.urlName === "unite-kindness" ||
+        guildData.urlName === "giovannamingarelli-prescott-russell-cumberland") && (
+        <Tooltip>
+          <TooltipTrigger
+            className="relative px-1 pt-1"
+            aria-label="verified checkmark"
+          >
+            <CheckMark />
+          </TooltipTrigger>
+          <TooltipContent>
+            This collab is verified by <code>Kindness.id</code>
+          </TooltipContent>
+        </Tooltip>
+      )}
     </div>
     <div className="flex gap-1.5">
       <Badge className="gap-2">
