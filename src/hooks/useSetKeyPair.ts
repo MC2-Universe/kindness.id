@@ -134,7 +134,7 @@ const useSetKeyPair = (submitOptions?: UseSubmitOptions) => {
           body,
           signOptions: {
             forcePrompt: true,
-            msg: "Sign in Guild.xyz",
+            msg: "Sign in Kindndess.id",
             ...signProps,
             getMessageToSign: walletType === "EVM" ? getSiweMessage : undefined,
           },

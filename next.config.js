@@ -55,7 +55,7 @@ const nextConfig = {
         hostname: "guild-xyz.mypinata.cloud",
       },
       {
-        hostname: "kindness.mypinata.cloud",
+        hostname: "magenta-occasional-salamander-202.mypinata.cloud",
       },
       {
         hostname: "assets.poap.xyz",

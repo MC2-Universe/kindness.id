@@ -42,7 +42,7 @@ setup("authenticate", async ({ page }) => {
   const storedKeyPairToSave = await page.evaluate(
     async ({ userId }) => {
       const idb = await new Promise<IDBDatabase>((resolve, reject) => {
-        const request = indexedDB.open("guild.xyz")
+        const request = indexedDB.open("kindndess.id")
 
         request.onsuccess = () => resolve(request.result)
         request.onerror = () => reject(request.error)

@@ -31,6 +31,7 @@ const generateApiKey = async (res: NextApiResponse) => {
   )
 
   const body: PinataGenerateAPIKeyResponse = await response.json()
+  console.log("body", body)
 
   if (response.ok) {
     res.status(200).json({ key: body.pinata_api_key, jwt: body.JWT })

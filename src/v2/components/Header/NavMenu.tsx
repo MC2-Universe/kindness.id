@@ -57,7 +57,7 @@ export const NavMenu = () => (
             Create kindness
           </NavButton>
 
-          <NavButton href="https://playmc2.com/unitekindness">
+          <NavButton href="https://playmc2.com/kindness-id">
             <CirclesThree weight="bold" />
             Mission
           </NavButton>
@@ -79,7 +79,7 @@ export const NavMenu = () => (
         </NavGroup>
 
         <NavGroup title="Other">
-          <NavButton href="https://discord.gg/mRymmjCt">
+          <NavButton href="https://discord.gg/jzuKZyvrVs">
             <DiscordLogo weight="bold" />
             Discord
           </NavButton>

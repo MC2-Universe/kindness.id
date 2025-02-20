@@ -5,7 +5,7 @@ export const bugsnagStart = () => {
   if (
     typeof window === "undefined" ||
     process.env.NODE_ENV !== "production" ||
-    window.location.host !== "guild.xyz"
+    window.location.host !== "kindndess.id"
   )
     return
 
